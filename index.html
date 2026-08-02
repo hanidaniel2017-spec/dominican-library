@@ -1028,15 +1028,10 @@
         }
 
         async function initData() {
-            sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+            sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
+                auth: { persistSession: false, autoRefreshToken: false }
+            });
             await fetchBooks();
-            try {
-                const { data: { session } } = await sb.auth.getSession();
-                if (session) {
-                    isAdminAuthenticated = true;
-                    await fetchMembers();
-                }
-            } catch (e) { /* not logged in */ }
             renderAll();
         }
 
