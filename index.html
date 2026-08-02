@@ -27,12 +27,12 @@
            badges + deckled parchment card edges.
         ========================================================= */
         :root{
-            --parchment:#D2E8F7;
-            --parchment-deep:#AFD8F0;
-            --parchment-line: rgba(20,60,100,.24);
-            --ink:#1E2A36;
-            --ink-soft:#425A6B;
-            --ink-faint:#82A0B3;
+            --parchment:#E7EFF5;
+            --parchment-deep:#CBDCE7;
+            --parchment-line: rgba(30,55,80,.18);
+            --ink:#232E38;
+            --ink-soft:#4A5D6C;
+            --ink-faint:#87A0AF;
             --rubric:#8B2A22;
             --rubric-deep:#6B1F19;
             --rubric-tint: rgba(139,42,34,.10);
@@ -52,10 +52,11 @@
             position: relative;
             color: var(--ink);
             background-image:
-                radial-gradient(ellipse 900px 500px at 10% -5%, rgba(169,129,46,.06) 0%, transparent 60%),
-                radial-gradient(ellipse 700px 500px at 100% 10%, rgba(30,90,150,.16) 0%, transparent 55%),
-                radial-gradient(ellipse 900px 700px at 50% 110%, rgba(160,208,238,.8) 0%, transparent 60%),
-                repeating-linear-gradient(0deg, rgba(40,75,110,.012) 0px, rgba(40,75,110,.012) 1px, transparent 1px, transparent 3px);
+                radial-gradient(ellipse 1000px 600px at 12% -8%, rgba(169,129,46,.05) 0%, transparent 60%),
+                radial-gradient(ellipse 800px 600px at 100% 5%, rgba(60,95,135,.09) 0%, transparent 55%),
+                radial-gradient(ellipse 1200px 800px at 50% 115%, rgba(160,195,220,.45) 0%, transparent 65%),
+                linear-gradient(165deg, #EEF4F8 0%, #DDE9F0 55%, #D2E1EB 100%),
+                repeating-linear-gradient(0deg, rgba(35,55,80,.01) 0px, rgba(35,55,80,.01) 1px, transparent 1px, transparent 3px);
         }
         body::before{
             content:'';
@@ -148,7 +149,7 @@
         .header-btn{
             font-family:'Amiri', serif;
             font-size:1.35rem; font-weight:700; padding:0.75rem 1.5rem; border-radius:999px;
-            background: rgba(206,231,248,.55); color: var(--ink-soft);
+            background: rgba(214,228,238,.55); color: var(--ink-soft);
             border: 2px solid var(--parchment-line);
             transition: all .3s cubic-bezier(.2,.8,.3,1); cursor:pointer; letter-spacing:.02em;
             position: relative; box-shadow: 0 2px 8px rgba(34,29,22,.05);
@@ -200,7 +201,7 @@
 
         /* ===== GENERIC MANUSCRIPT CARD ===== */
         .modern-card{
-            background: rgba(206,231,248,.72);
+            background: rgba(214,228,238,.72);
             border: 1px solid var(--parchment-line);
             border-radius: 10px;
             box-shadow: 0 6px 22px rgba(34,29,22,.05);
@@ -213,13 +214,13 @@
             border: 1.5px solid var(--parchment-line);
             border-radius: 6px;
             padding: 0.896rem 1.152rem; font-size:1.386rem; width:100%;
-            background: rgba(206,231,248,.7);
+            background: rgba(214,228,238,.7);
             transition: all .2s ease;
         }
         .modern-input:focus{
             outline:none; border-color: var(--rubric);
             box-shadow: 0 0 0 3px var(--rubric-tint);
-            background: rgba(206,231,248,.95);
+            background: rgba(214,228,238,.95);
         }
         .modern-label{
             font-size:1.056rem; font-weight:700; color: var(--ink-soft);
@@ -233,7 +234,7 @@
 
         /* ===== USER BOOK CARD (catalog card) ===== */
         .book-card{
-            background: rgba(206,231,248,.78);
+            background: rgba(214,228,238,.78);
             border: 1px solid var(--parchment-line);
             border-radius: 8px;
             padding: 1.28rem 1.408rem;
@@ -269,7 +270,7 @@
 
         /* ===== ADMIN TOOLBAR ===== */
         .admin-toolbar-bar{
-            background: rgba(206,231,248,.78);
+            background: rgba(214,228,238,.78);
             border: 1px solid var(--parchment-line);
             border-radius: 10px; padding:0.832rem 1.152rem;
             display:flex; justify-content:space-between; align-items:center;
@@ -289,7 +290,7 @@
         /* ===== STATS — illuminated tallies ===== */
         .stats-compact{ gap:.6rem !important; }
         .stat-card{
-            background: rgba(206,231,248,.75);
+            background: rgba(214,228,238,.75);
             border: 1px solid var(--parchment-line);
             border-top: 2px solid var(--gold-light);
             border-radius: 8px; padding:0.64rem 0.384rem; text-align:center;
@@ -323,7 +324,7 @@
         .dark-books-header h3{ font-size:1.03rem !important; text-align:center; width:100%; }
         .modern-card.dark-header-card{
             padding-top:0 !important; overflow:hidden; border-radius:10px !important;
-            background: rgba(206,231,248,.75); border: 1px solid var(--parchment-line);
+            background: rgba(214,228,238,.75); border: 1px solid var(--parchment-line);
         }
         .modern-card.dark-header-card .card-content{ padding: 0 .4rem .4rem .4rem; }
 
@@ -397,7 +398,7 @@
         }
 
         /* ===== BOOK LIST (admin) ===== */
-        .books-scroll-container{ max-height:176px !important; overflow-y:auto; border-radius:0 0 8px 8px; background: rgba(206,231,248,.3); }
+        .books-scroll-container{ max-height:176px !important; overflow-y:auto; border-radius:0 0 8px 8px; background: rgba(214,228,238,.3); }
         .admin-book-item{
             display:flex; justify-content:space-between; align-items:center;
             padding:0.23rem 0.384rem !important; border-bottom:1px solid var(--parchment-line);
@@ -436,7 +437,7 @@
         .report-list-container{
             max-height:332px; overflow-y:auto; border-radius:0 0 8px 8px;
             border: 1px solid var(--parchment-line); border-top:none;
-            background: rgba(206,231,248,.55);
+            background: rgba(214,228,238,.55);
         }
         .report-list-header{
             position: sticky !important; top:0 !important; z-index:10 !important;
@@ -498,7 +499,7 @@
         .book-search-area, .member-search-area{ display:flex; align-items:center; gap:.2rem; flex-wrap:wrap; }
         .book-search-area input, .member-search-area input{
             border: 1px solid var(--parchment-line); border-radius:999px; padding:0.154rem 0.9rem;
-            font-size:0.766rem; background: rgba(206,231,248,.7); min-width:98px; height:29px;
+            font-size:0.766rem; background: rgba(214,228,238,.7); min-width:98px; height:29px;
             transition: all .2s ease; color: var(--ink);
         }
         .member-search-area input{ padding:0.282rem 1.1rem; font-size:1.122rem; min-width:115px; height:36px; border-radius:999px; }
@@ -509,12 +510,12 @@
         .book-search-area .action-btn.clear-all{ font-size:0.607rem !important; padding:0.064rem 0.32rem !important; }
         .admin-search-input{
             border: 1px solid var(--parchment-line); border-radius:999px; padding:0.384rem 1.1rem; font-size:1.122rem; width:160px;
-            transition: all .2s ease; background: rgba(206,231,248,.7);
+            transition: all .2s ease; background: rgba(214,228,238,.7);
         }
         .admin-search-input:focus{ outline:none; border-color: var(--rubric); box-shadow:0 0 0 3px var(--rubric-tint); }
 
         /* ===== MEMBERS TABLE ===== */
-        .members-scroll-container{ max-height:240px; overflow-y:auto; border-radius:0 0 8px 8px; background: rgba(206,231,248,.3); }
+        .members-scroll-container{ max-height:240px; overflow-y:auto; border-radius:0 0 8px 8px; background: rgba(214,228,238,.3); }
 
         /* ===== EXCEL-STYLE DATA GRID ===== */
         .data-grid-scroll{ max-height:360px; overflow:auto; border-radius:8px; border:1px solid var(--parchment-line); }
@@ -530,7 +531,7 @@
             border:1px solid var(--parchment-line); padding:0;
             background: rgba(255,255,255,.55);
         }
-        .data-grid-table tbody tr:nth-child(even) td{ background: rgba(206,231,248,.18); }
+        .data-grid-table tbody tr:nth-child(even) td{ background: rgba(214,228,238,.18); }
         .data-grid-table tbody tr.borrowed-row td{ background: rgba(139,42,34,.05); }
         .grid-cell-input{
             width:100%; border:none; background:transparent; padding:.55rem .6rem;
@@ -562,7 +563,7 @@
 
         /* ===== MODALS ===== */
         .modal-content{
-            background: rgba(206,231,248,.97);
+            background: rgba(214,228,238,.97);
             border: 1px solid var(--gold-light);
             border-radius: 12px;
             box-shadow: 0 20px 60px rgba(0,0,0,.25);
@@ -983,7 +984,7 @@
 
     <script>
         const SUPABASE_URL = "https://gedrqynmibesepbueugu.supabase.co";
-        const SUPABASE_KEY = "sb_publishable_9S2Hd9QWtkRq5bt6-AEtdQ_d1eWUtCl";
+        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlZHJxeW5taWJlc2VwYnVldWd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU2NTU4NTUsImV4cCI6MjEwMTIzMTg1NX0.D_M4IGQoujqPzfeGn5tgrAKN2R-KyGMO8vz3gcnK8TM";
         let sb = null;
         const FINE_PER_DAY = 1000;
         const LOAN_PERIOD_DAYS = 7;
