@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>مكتبة الآباء الدومنيكان | عنكاوا</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    <style>
+        /* =========================================================
+           DESIGN SYSTEM — "المخطوطة" (The Manuscript)
+           A scriptorium / illuminated-manuscript language built for
+           a Dominican monastic library: parchment, rubric red ink,
+           gold leaf, wax seals, deckled page edges.
+           Palette:
+             --parchment #E6F2FA   --parchment-deep #CFE8F7
+             --ink #221D16         --ink-soft #5C503F
+             --rubric #8B2A22      --rubric-deep #6B1F19
+             --gold #A9812E        --gold-light #D8B978
+           Display type: Amiri (ar) / Cormorant Garamond (la)
+           Body type: Tajawal
+           Signature element: illuminated drop-cap + wax-seal status
+           badges + deckled parchment card edges.
+        ========================================================= */
+        :root{
+            --parchment:#DCEEFC;
+            --parchment-deep:#BFE0F5;
+            --parchment-line: rgba(20,90,150,.18);
+            --ink:#1E2E3D;
+            --ink-soft:#3E5A70;
+            --ink-faint:#7CA0B8;
+            --rubric:#8B2A22;
+            --rubric-deep:#6B1F19;
+            --rubric-tint: rgba(139,42,34,.10);
+            --gold:#A9812E;
+            --gold-light:#D8B978;
+            --gold-tint: rgba(169,129,46,.12);
+            --sage:#5C6B4E;
+            --sage-tint: rgba(92,107,78,.14);
+        }
+        * { font-family: 'Tajawal', sans-serif; box-sizing: border-box; }
+        .font-display { font-family: 'Amiri', serif; }
+        .font-latin { font-family: 'Cormorant Garamond', serif; }
+
+        html, body { background: var(--parchment); }
+        body {
+            min-height: 100vh;
+            position: relative;
+            color: var(--ink);
+            background-image:
+                radial-gradient(ellipse 1000px 600px at 12% -8%, rgba(169,129,46,.05) 0%, transparent 60%),
+                radial-gradient(ellipse 800px 600px at 100% 5%, rgba(30,120,200,.09) 0%, transparent 55%),
+                radial-gradient(ellipse 1200px 800px at 50% 115%, rgba(140,205,245,.5) 0%, transparent 65%),
+                linear-gradient(165deg, #E8F4FC 0%, #D6ECFA 55%, #C6E3F6 100%),
+                repeating-linear-gradient(0deg, rgba(20,90,150,.01) 0px, rgba(20,90,150,.01) 1px, transparent 1px, transparent 3px);
+        }
+        body::before{
+            content:'';
+            position: fixed; inset:0;
+            background-image:
+                radial-gradient(circle at 15% 20%, rgba(40,75,110,.045) 0%, transparent 2%),
+                radial-gradient(circle at 82% 65%, rgba(40,75,110,.035) 0%, transparent 2%),
+                radial-gradient(circle at 45% 85%, rgba(40,75,110,.025) 0%, transparent 2%);
+            pointer-events:none; z-index:0;
+        }
+        .container{ position:relative; z-index:1; }
+
+        ::-webkit-scrollbar{ width:7px; height:9px; }
+        ::-webkit-scrollbar-track{ background: rgba(34,29,22,.05); border-radius:10px; }
+        ::-webkit-scrollbar-thumb{ background: var(--gold-light); border-radius:10px; }
+        ::-webkit-scrollbar-thumb:hover{ background: var(--gold); }
+
+        /* ===== HEADER — the book cover ===== */
+        .elegant-header{
+            background:
+                radial-gradient(ellipse 600px 300px at 15% 0%, rgba(216,185,120,.10) 0%, transparent 60%),
+                linear-gradient(180deg, #1b1712 0%, #100d0a 100%);
+            border-bottom: 3px double var(--gold-light);
+            padding: 1.408rem 0;
+            box-shadow: 0 6px 30px rgba(0,0,0,.35);
+            position: relative;
+        }
+        .header-inner{
+            display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem;
+        }
+        .header-logo-container{ display:flex; align-items:center; gap:1.1rem; }
+        .header-logo-icon{
+            width:64px; height:64px; border-radius:50%;
+            border:2px solid var(--gold-light);
+            display:flex; align-items:center; justify-content:center;
+            color: var(--gold-light); font-size:2.1rem;
+            background: rgba(216,185,120,.06);
+            flex-shrink:0;
+        }
+        .logo-title{
+            color: var(--gold-light);
+            font-family:'Cormorant Garamond', serif;
+            font-style: italic; font-weight:600;
+            font-size:1.8rem; letter-spacing:.03em;
+            line-height:1;
+        }
+        .logo-subtitle{
+            color:#f4ead2;
+            font-family:'Aref Ruqaa', serif; font-weight:700;
+            font-size:3rem; margin-top:.15rem;
+        }
+        .logo-location{
+            color: rgba(244,234,210,.7);
+            font-size:1.5rem; font-weight:600; letter-spacing:.03em;
+            font-family:'Cormorant Garamond', serif;
+        }
+        .logo-divider{ width:1px; height:13px; background: rgba(244,234,210,.25); display:inline-block; }
+        .gold-accent{ color: var(--gold-light); }
+
+        .dominican-coat-of-arms{
+            width:130px; height:130px; display:flex; align-items:center; justify-content:center;
+            border-radius:50%;
+            background:#fff;
+            border: 2px solid var(--gold-light);
+            box-shadow: 0 0 0 5px rgba(216,185,120,.12), 0 4px 22px rgba(0,0,0,.3);
+            padding:0; overflow:hidden; transition: all .35s ease; flex-shrink:0;
+        }
+        .dominican-coat-of-arms:hover{ box-shadow: 0 0 0 7px rgba(216,185,120,.1), 0 4px 30px rgba(0,0,0,.35); transform: scale(1.04); }
+        .dominican-coat-of-arms img{ width:100%; height:100%; object-fit:contain; border-radius:50%; display:block; }
+
+        .header-right{ text-align:left; }
+        .header-location-big{
+            color: rgba(244,234,210,.75); font-size:1.122rem; font-weight:600; letter-spacing:.02em;
+        }
+        .header-seal-number{
+            font-family:'Cormorant Garamond', serif; font-size:1.782rem; font-weight:700;
+            color: var(--gold-light);
+            padding: 0.064rem 1.28rem; border: 1px solid rgba(216,185,120,.3); border-radius:50px;
+            margin-top:.25rem; letter-spacing:3px; display:inline-block;
+            background: rgba(216,185,120,.05);
+        }
+        .header-location-under{
+            color: rgba(244,234,210,.75); font-size:1.5rem; font-weight:500;
+            font-family:'Aref Ruqaa', serif;
+            letter-spacing:.02em; margin-top:.4rem;
+        }
+
+        /* ===== VIEW SWITCHER — tabs on a ledger ===== */
+        .view-switcher{ display:flex; flex-wrap:wrap; justify-content:center; gap:.6rem 1rem; padding: 1.3rem 0 .7rem; }
+        .view-switcher .header-btn{ max-width:100%; white-space:nowrap; }
+        @media (max-width:480px){ .view-switcher .header-btn{ flex:1 1 0; min-width:0; padding-inline:.8rem !important; font-size:1rem !important; } }
+        html, body{ overflow-x:hidden; }
+        .header-btn{
+            font-family:'Amiri', serif;
+            font-size:1.35rem; font-weight:700; padding:0.75rem 1.5rem; border-radius:999px;
+            background: rgba(210,235,250,.55); color: var(--ink-soft);
+            border: 2px solid var(--parchment-line);
+            transition: all .3s cubic-bezier(.2,.8,.3,1); cursor:pointer; letter-spacing:.02em;
+            position: relative; box-shadow: 0 2px 8px rgba(34,29,22,.05);
+            min-width: 230px; text-align:center;
+        }
+        .header-btn:hover{
+            border-color: var(--gold);
+            color: var(--ink);
+            background: var(--gold-tint);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 22px rgba(169,129,46,.18);
+        }
+        .header-btn.active-btn{
+            background: linear-gradient(135deg, #221D16 0%, #100d0a 100%);
+            color: var(--gold-light);
+            border-color: var(--gold);
+            box-shadow: 0 8px 26px rgba(34,29,22,.32), 0 0 0 4px rgba(169,129,46,.12);
+            transform: translateY(-1px);
+        }
+        .header-btn.active-btn:hover{ transform: translateY(-3px); box-shadow: 0 12px 30px rgba(34,29,22,.35), 0 0 0 4px rgba(169,129,46,.16); }
+        .header-btn:active{ transform: translateY(0) scale(.97); }
+
+        /* ===== USER SEARCH ===== */
+        .user-search-area{ text-align:center; padding: 1.28rem 0 .5rem; position:relative; }
+        .user-search-area .main-title{
+            font-family:'Amiri', serif; font-weight:700; font-size:2.772rem; color: var(--ink);
+            position:relative; display:inline-block;
+        }
+        .user-search-area .main-title::before{
+            content:'٭'; color: var(--rubric); font-size:1.98rem; margin-left:.4rem;
+        }
+        .user-search-area .subtitle-text{
+            color: var(--ink-faint); font-size:1.214rem; margin-top:.3rem;
+        }
+        .live-clock{
+            display:inline-flex; align-items:center; gap:.5rem;
+            margin-top:.6rem; padding:.35rem 1.1rem;
+            background: rgba(255,255,255,.5); border:1px solid var(--parchment-line);
+            border-radius:999px; font-size:.85rem; font-weight:600; color: var(--ink-soft);
+            font-family:'Cormorant Garamond', serif;
+        }
+        .user-search-area .modern-input{
+            border: 1.5px solid var(--parchment-line);
+            border-radius: 999px;
+            padding: 1.088rem 1.8rem; font-size:1.452rem; width:100%;
+            background: #ffffff;
+            transition: all .25s ease;
+            font-family:'Tajawal', sans-serif;
+        }
+        .user-search-area .modern-input::placeholder{ color: var(--ink); opacity:.65; }
+        .user-search-area .modern-input:focus{
+            outline:none; border-color: var(--rubric);
+            box-shadow: 0 0 0 3px var(--rubric-tint);
+            background: #ffffff;
+        }
+
+        /* ===== GENERIC MANUSCRIPT CARD ===== */
+        .modern-card{
+            background: rgba(210,235,250,.72);
+            border: 1px solid var(--parchment-line);
+            border-radius: 10px;
+            box-shadow: 0 6px 22px rgba(34,29,22,.05);
+            position: relative;
+            transition: all .25s ease;
+        }
+        .modern-card:hover{ box-shadow: 0 10px 30px rgba(34,29,22,.08); }
+
+        .modern-input{
+            border: 1.5px solid var(--parchment-line);
+            border-radius: 6px;
+            padding: 0.896rem 1.152rem; font-size:1.386rem; width:100%;
+            background: rgba(210,235,250,.7);
+            transition: all .2s ease;
+        }
+        .modern-input:focus{
+            outline:none; border-color: var(--rubric);
+            box-shadow: 0 0 0 3px var(--rubric-tint);
+            background: rgba(210,235,250,.95);
+        }
+        .modern-label{
+            font-size:1.056rem; font-weight:700; color: var(--ink-soft);
+            margin-bottom:.25rem; display:block; letter-spacing:.01em;
+        }
+        .modern-btn{ transition: all .2s ease; cursor:pointer; font-weight:600; }
+        .modern-btn:active{ transform: scale(.97); }
+        .hidden-section{ display:none !important; }
+        /* إصلاح: في Tailwind v4 قد يتغلّب flex على hidden في النوافذ المنبثقة */
+        .hidden{ display:none !important; }
+        .serial-badge, .shelf-badge{ display:inline-block; font-size:.78rem; padding:.05rem .5rem; border-radius:999px; background: var(--gold-tint); color: var(--ink-soft); margin-inline-end:.3rem; }
+        .fade-in{ animation: fadeIn .25s ease-out; }
+        @keyframes fadeIn{ from{opacity:0; transform: translateY(8px);} to{opacity:1; transform:translateY(0);} }
+
+        /* ===== USER BOOK CARD (catalog card) ===== */
+        .book-card{
+            background: rgba(210,235,250,.78);
+            border: 1px solid var(--parchment-line);
+            border-radius: 8px;
+            padding: 1.28rem 1.408rem;
+            display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:1rem;
+            transition: all .25s ease;
+            border-right: 3px solid var(--gold-light);
+        }
+        .book-card:hover{ border-color: var(--parchment-line); border-right-color: var(--rubric); box-shadow: 0 8px 26px rgba(34,29,22,.07); transform: translateY(-1px); }
+        .chip{
+            font-size:0.99rem; padding:0.192rem 0.768rem; border-radius:3px;
+            background: var(--gold-tint); color: var(--ink-soft); font-weight:600;
+            border: 1px solid rgba(169,129,46,.18);
+        }
+        .book-card h3{ font-family:'Amiri', serif; font-weight:700; font-size:1.518rem; color: var(--ink); }
+        .book-card .meta{ color: var(--ink-faint); font-size:1.096rem; }
+
+        .status-pill{ font-size:1.03rem; font-weight:700; padding:0.256rem 0.96rem; border-radius:30px; }
+        .status-available{ background: var(--sage-tint); color: var(--sage); border: 1px solid rgba(92,107,78,.25); }
+        .status-borrowed{ background: var(--rubric-tint) !important; color: var(--rubric) !important; border: 1px solid rgba(139,42,34,.25); font-weight:700 !important; }
+
+        .seal-btn{
+            background: var(--ink); color: var(--gold-light);
+            border: 1px solid var(--ink); border-radius: 30px;
+            padding: 0.576rem 1.408rem; font-size:1.122rem; font-weight:700;
+            transition: all .2s ease;
+        }
+        .seal-btn:hover{ background:#332b20; }
+        .seal-btn:disabled{ background: rgba(34,29,22,.08); color: var(--ink-faint); cursor:not-allowed; border-color: var(--parchment-line); }
+
+        .type-badge-registered{ background: var(--gold-tint); color:#7a5e1f; font-weight:700; border:1px solid rgba(169,129,46,.25); }
+        .type-badge-visitor{ background: var(--sage-tint); color: var(--sage); font-weight:700; border:1px solid rgba(92,107,78,.25); }
+        .type-badge-unregistered{ background: rgba(34,29,22,.06); color: var(--ink-soft); font-weight:700; border:1px solid var(--parchment-line); }
+
+        /* ===== ADMIN TOOLBAR ===== */
+        .admin-toolbar-bar{
+            background: rgba(210,235,250,.78);
+            border: 1px solid var(--parchment-line);
+            border-radius: 10px; padding:0.832rem 1.152rem;
+            display:flex; justify-content:space-between; align-items:center;
+        }
+        .toolbar-dark-btn, .dark-action-btn, .excel-import-area .excel-action, .dark-icon-btn, .admin-toolbar .logout-btn{
+            background: var(--ink); color: var(--gold-light);
+            border: 1px solid var(--ink);
+            transition: all .25s ease; cursor:pointer; font-weight:700;
+            padding: 0.64rem 1.536rem; border-radius: 30px; font-size:1.162rem;
+        }
+        .toolbar-dark-btn:hover, .dark-action-btn:hover, .excel-import-area .excel-action:hover, .dark-icon-btn:hover, .admin-toolbar .logout-btn:hover{
+            background:#332b20;
+        }
+        .toolbar-dark-btn:active, .dark-action-btn:active{ transform: scale(.97); }
+        .dark-action-btn-sm{ padding:0.41rem 1.024rem; font-size:1.03rem; border-radius: 20px; }
+
+        /* ===== STATS — illuminated tallies ===== */
+        .stats-compact{ gap:.6rem !important; }
+        .stat-card{
+            background: rgba(210,235,250,.75);
+            border: 1px solid var(--parchment-line);
+            border-top: 2px solid var(--gold-light);
+            border-radius: 8px; padding:0.64rem 0.384rem; text-align:center;
+            transition: all .25s ease;
+        }
+        .stat-card:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(34,29,22,.06); }
+        .stat-number{ font-family:'Cormorant Garamond', serif; font-size:2.244rem; font-weight:700; color: var(--ink); line-height:1.1; }
+        .stat-label{ font-size:0.898rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color: var(--ink-soft); display:block; }
+        .stat-label.late-label{ color: var(--rubric) !important; }
+        .stat-sub{ font-size:0.792rem; color: var(--ink-faint); }
+
+        /* ===== RUBRIC SECTION HEADERS (dark banner replaced with rubric ink banner) ===== */
+        .dark-section-header, .dark-member-header, .dark-members-header, .dark-books-header{
+            background: linear-gradient(135deg, #1b1712 0%, #100d0a 100%) !important;
+            color: var(--gold-light) !important;
+            border-bottom: 2px solid var(--gold) !important;
+            border-radius: 8px 8px 0 0 !important;
+            padding: 0.704rem 1.152rem !important;
+        }
+        .dark-section-header h3, .dark-member-header h3, .dark-members-header h3, .dark-books-header h3{
+            color: var(--gold-light) !important;
+            font-family:'Amiri', serif !important;
+            font-weight:700 !important;
+        }
+        .dark-member-header, .dark-members-header{
+            display:flex !important; justify-content:center !important; align-items:center !important;
+            text-align:center !important; min-height:57px !important; width:100% !important; margin:0 !important;
+        }
+        .dark-member-header h3, .dark-members-header h3{ width:100%; text-align:center; margin:0; }
+        .dark-books-header{ min-height:42px !important; padding:0.32rem 0.768rem !important; }
+        .dark-books-header h3{ font-size:1.03rem !important; text-align:center; width:100%; }
+        .print-books-btn{
+            background: rgba(216,185,120,.14); color: var(--gold-light);
+            border: 1px solid rgba(216,185,120,.3); border-radius:999px;
+            font-size:.72rem; font-weight:700; padding:.28rem .8rem; cursor:pointer;
+            transition: all .2s ease; white-space:nowrap;
+        }
+        .print-books-btn:hover{ background: rgba(216,185,120,.24); }
+        .modern-card.dark-header-card{
+            padding-top:0 !important; overflow:hidden; border-radius:10px !important;
+            background: rgba(210,235,250,.75); border: 1px solid var(--parchment-line);
+        }
+        .modern-card.dark-header-card .card-content{ padding: 0 .4rem .4rem .4rem; }
+
+        .loan-period-badge{
+            background: rgba(216,185,120,.14); padding:0.064rem 0.704rem; border-radius:20px;
+            font-size:0.818rem; font-weight:600; color: var(--gold-light);
+            border: 1px solid rgba(216,185,120,.25);
+            margin-right:.3rem;
+        }
+
+        /* ===== EXCEL IMPORT ===== */
+        .excel-import-area{
+            background: linear-gradient(135deg, #1b1712 0%, #100d0a 100%);
+            border: 1.5px solid rgba(216,185,120,.28);
+            border-radius: 22px; padding:1.3rem 1.8rem;
+            display:flex; flex-wrap:wrap; align-items:center; gap:1rem;
+            color: var(--gold-light); width:100%; justify-content:center;
+            box-shadow: 0 10px 28px rgba(0,0,0,.28), inset 0 0 0 1px rgba(216,185,120,.05);
+            position: relative;
+        }
+        .excel-import-area::before{
+            content:'✦'; position:absolute; top:-.6rem; left:50%; transform: translateX(-50%);
+            background: #100d0a; color: var(--gold-light); font-size:.9rem;
+            padding: 0 .6rem;
+        }
+        .excel-import-area .excel-label{
+            color: var(--gold-light); font-size:1.5rem; font-weight:800;
+            display:flex; align-items:center; gap:.5rem;
+            font-family:'Amiri', serif;
+        }
+        .excel-import-area .excel-label .icon{
+            width:2.4rem; height:2.4rem; display:flex; align-items:center; justify-content:center;
+            background: rgba(216,185,120,.14); border: 1px solid rgba(216,185,120,.3);
+            border-radius:50%; font-size:1.25rem;
+        }
+        .excel-import-area .excel-btn{
+            background: rgba(244,234,210,.95) !important; color: var(--ink) !important;
+            border: 1.5px solid var(--gold-light) !important;
+            padding:0.65rem 1.6rem; border-radius:999px; font-size:1.18rem; font-weight:700; cursor:pointer;
+            transition: all .25s ease; box-shadow: 0 4px 12px rgba(0,0,0,.15);
+        }
+        .excel-import-area .excel-btn:hover{ background:#fff !important; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.2); }
+        .excel-import-area .file-name{
+            color: rgba(244,234,210,.65); font-size:1.1rem; font-style: italic;
+            max-width:140px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+            padding: .3rem .9rem; background: rgba(244,234,210,.06); border-radius:999px;
+            border: 1px dashed rgba(244,234,210,.2);
+        }
+        .excel-import-area .excel-action{
+            padding: 0.75rem 2rem !important; font-size:1.25rem !important; border-radius:999px !important;
+            box-shadow: 0 6px 16px rgba(0,0,0,.25);
+            transition: all .25s ease;
+        }
+        .excel-import-area .excel-action:hover{ transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,.3); }
+        .excel-import-area .excel-action{ background: linear-gradient(135deg, var(--gold) 0%, #8a6a26 100%) !important; color:#1b1712 !important; border-color: var(--gold-light) !important; }
+        .excel-import-area .excel-action.export{ background: linear-gradient(135deg, #332b20 0%, #1b1712 100%) !important; color: var(--gold-light) !important; border: 1.5px solid rgba(216,185,120,.3) !important; }
+        .excel-import-area .excel-action.export:hover{ background: linear-gradient(135deg, #463b2b 0%, #221c14 100%) !important; }
+
+        /* ===== BOOK FORM ===== */
+        .form-compact .modern-input{ padding:0.32rem 0.64rem !important; font-size:1.03rem !important; border-radius:5px !important; height:39px !important; }
+        .form-compact .modern-label{ font-size:0.766rem !important; margin-bottom:.1rem !important; color: var(--ink-faint); }
+        .form-compact .grid{ gap:.22rem !important; }
+        .form-compact .serial-preview{ font-size:0.634rem !important; margin-top:.05rem !important; }
+        .serial-preview{ font-size:0.924rem; color: var(--ink-faint); margin-top:.1rem; display:block; }
+        .form-title-badge{
+            background: linear-gradient(135deg, #1b1712 0%, #100d0a 100%);
+            color: var(--gold-light); font-weight:700; padding:0.358rem 1.152rem;
+            border-radius:6px; display:inline-block; margin-bottom:.45rem;
+            font-family:'Amiri', serif; font-size:1.452rem; letter-spacing:.02em;
+            border: 1px solid rgba(216,185,120,.15);
+        }
+
+        /* ===== BOOK LIST (admin) ===== */
+        .books-scroll-container{ max-height:176px !important; overflow-y:auto; border-radius:0 0 8px 8px; background: rgba(210,235,250,.3); }
+        .admin-book-item{
+            display:flex; justify-content:space-between; align-items:center;
+            padding:0.23rem 0.384rem !important; border-bottom:1px solid var(--parchment-line);
+            transition: background .2s ease;
+        }
+        .admin-book-item:hover{ background: rgba(216,185,120,.06); }
+        .admin-book-item .book-title{ font-size:0.95rem; font-weight:700; color: var(--ink); font-family:'Tajawal',sans-serif; }
+        .admin-book-item .book-meta{ font-size:0.686rem; color: var(--ink-faint); }
+        .admin-book-item .book-actions{ display:flex; gap:.15rem; flex-shrink:0; align-items:center; }
+        .admin-book-item .book-info{ flex:1; min-width:0; }
+
+        .action-btn{ padding:0.115rem 0.358rem; border-radius:4px; font-size:0.686rem; font-weight:600; transition: all .2s ease; border:none; cursor:pointer; }
+        .action-btn.edit{ background: rgba(169,129,46,.1); color: var(--ink-soft); }
+        .action-btn.edit:hover{ background: rgba(169,129,46,.2); }
+        .action-btn.delete{ background: rgba(139,42,34,.08); color: var(--rubric); }
+        .action-btn.delete:hover{ background: rgba(139,42,34,.16); }
+        .action-btn.borrow{ background: rgba(92,107,78,.12); color: var(--sage); }
+        .action-btn.borrow:hover{ background: rgba(92,107,78,.2); }
+        .action-btn.borrow:disabled{ opacity:.5; cursor:not-allowed; }
+        .action-btn.edit-member{ background: rgba(169,129,46,.1); color: var(--ink-soft); }
+        .action-btn.edit-member:hover{ background: rgba(169,129,46,.2); }
+        .action-btn.clear-all{
+            background: rgba(139,42,34,.08); color: var(--rubric); font-weight:700;
+            padding:0.115rem 0.41rem; border-radius:4px; font-size:0.686rem;
+            border: 1px solid rgba(139,42,34,.18); cursor:pointer; transition: all .2s ease;
+        }
+        .action-btn.clear-all:hover{ background: rgba(139,42,34,.16); }
+
+        .show-all-btn{
+            background: transparent; color: var(--gold); border:none; font-size:0.766rem !important;
+            font-weight:700; cursor:pointer; padding:0.064rem 0.256rem !important; width:100%; text-align:center;
+        }
+        .show-all-btn:hover{ color: var(--rubric); text-decoration: underline; }
+
+        /* ===== REPORT LIST ===== */
+        .report-list-container{
+            max-height:332px; overflow-y:auto; overflow-x:auto; border-radius:0 0 8px 8px;
+            border: 1px solid var(--parchment-line); border-top:none;
+            background: rgba(210,235,250,.55);
+        }
+        .report-list-header, .report-list-item{
+            display:grid;
+            grid-template-columns: minmax(120px,1.6fr) minmax(90px,1fr) 60px 84px 66px 66px 58px;
+            align-items:center; gap:.5rem; min-width:560px;
+        }
+        .report-list-header{
+            position: sticky !important; top:0 !important; z-index:10 !important;
+            background: var(--parchment-deep) !important;
+            border-bottom: 2px solid var(--gold-light) !important;
+            padding:0.55rem 0.832rem; font-weight:700; font-size:0.8rem; color: var(--ink);
+            border-radius: 0;
+        }
+        .report-list-header span{ text-align:center; }
+        .report-list-header span:first-child{ text-align:right; }
+        .report-list-item{
+            padding:0.55rem 0.832rem; border-bottom:1px solid var(--parchment-line);
+            transition: background .2s ease; font-size:0.95rem;
+        }
+        .report-list-item:hover{ background: rgba(216,185,120,.06); }
+        .report-list-item.late-row{ background: rgba(139,42,34,.045); }
+        .report-empty{ padding:1.152rem; text-align:center; color: var(--ink-faint); font-size:1.188rem; }
+        .book-details{ min-width:0; }
+        .book-details .book-title{ font-weight:700; color: var(--ink); font-size:0.9rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+        .book-details .book-meta{ display:flex; gap:.4rem; font-size:0.7rem; color: var(--ink-faint); margin-top:.05rem; flex-wrap:wrap; }
+        .borrower-info{ font-size:0.82rem; color: var(--ink-soft); font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:center; }
+        .date-info{ font-size:0.75rem; color: var(--ink-faint); text-align:center; }
+        .fine-info{ font-size:0.78rem; font-weight:700; text-align:center; }
+        .fine-info.positive{ color: var(--rubric); }
+        .fine-info.zero{ color: var(--sage); }
+
+        .borrower-type{
+            font-size:0.62rem; padding:0.1rem 0.5rem; border-radius:20px; font-weight:700;
+            white-space:nowrap; text-align:center; border: 1px solid transparent;
+            justify-self:center;
+        }
+        .borrower-type.registered{ background: var(--gold-tint); color:#7a5e1f; border-color: rgba(169,129,46,.22); }
+        .borrower-type.visitor{ background: var(--sage-tint); color: var(--sage); border-color: rgba(92,107,78,.22); }
+        .borrower-type.unregistered{ background: rgba(34,29,22,.06); color: var(--ink-soft); border-color: var(--parchment-line); }
+
+        .report-list-item .return-btn{
+            background: var(--ink); color: var(--gold-light); border:none;
+            padding:0.3rem 0.6rem; border-radius:20px; font-size:0.62rem; font-weight:700;
+            cursor:pointer; transition: all .2s ease; white-space:nowrap; line-height:1.4;
+            justify-self:center;
+        }
+        .report-list-item .return-btn:hover{ background:#332b20; transform: scale(1.02); }
+
+        .report-search-area{ display:flex; align-items:center; gap:.3rem; flex-wrap:wrap; }
+        .report-search-area input{
+            border: 1px solid rgba(216,185,120,.2); border-radius:999px; padding:0.192rem 1.2rem;
+            font-size:0.924rem; background: rgba(244,234,210,.08); min-width:138px;
+            transition: all .2s ease; color: var(--gold-light); height:39px;
+        }
+        .report-search-area input::placeholder{ color: rgba(244,234,210,.45); }
+        .report-search-area input:focus{ outline:none; border-color: var(--gold-light); background: rgba(244,234,210,.14); }
+        .report-search-area .search-btn{
+            background: var(--gold-light); color: var(--ink); border:none; border-radius:30px;
+            padding:0.192rem 0.96rem; font-size:0.924rem; font-weight:700; cursor:pointer;
+            transition: all .2s ease; height:39px; line-height:1.4;
+        }
+        .report-search-area .search-btn:hover{ background:#e6cd94; }
+        .report-search-area .clear-search{ background:transparent; border:none; color: rgba(244,234,210,.55); font-size:1.122rem; cursor:pointer; padding:0 .2rem; }
+        .report-search-area .clear-search:hover{ color:#fff; }
+
+        .book-search-area, .member-search-area{ display:flex; align-items:center; gap:.2rem; flex-wrap:wrap; }
+        .book-search-area input, .member-search-area input{
+            border: 1px solid var(--parchment-line); border-radius:999px; padding:0.154rem 0.9rem;
+            font-size:0.766rem; background: rgba(210,235,250,.7); min-width:98px; height:29px;
+            transition: all .2s ease; color: var(--ink);
+        }
+        .member-search-area input{ padding:0.282rem 1.1rem; font-size:1.122rem; min-width:115px; height:36px; border-radius:999px; }
+        .book-search-area input:focus, .member-search-area input:focus{ outline:none; border-color: var(--rubric); box-shadow:0 0 0 3px var(--rubric-tint); }
+        .book-search-area .clear-search, .member-search-area .clear-search{ background:transparent; border:none; color: var(--ink-faint); cursor:pointer; padding:0 .15rem; }
+        .book-search-area .clear-search{ font-size:0.818rem !important; }
+        .member-search-area .clear-search{ font-size:1.056rem; }
+        .book-search-area .action-btn.clear-all{ font-size:0.607rem !important; padding:0.064rem 0.32rem !important; }
+        .admin-search-input{
+            border: 1px solid var(--parchment-line); border-radius:999px; padding:0.384rem 1.1rem; font-size:1.122rem; width:160px;
+            transition: all .2s ease; background: rgba(210,235,250,.7);
+        }
+        .admin-search-input:focus{ outline:none; border-color: var(--rubric); box-shadow:0 0 0 3px var(--rubric-tint); }
+
+        /* ===== MEMBERS TABLE ===== */
+        .members-scroll-container{ max-height:240px; overflow-y:auto; border-radius:0 0 8px 8px; background: rgba(210,235,250,.3); }
+
+        /* ===== EXCEL-STYLE DATA GRID ===== */
+        .data-grid-scroll{ max-height:360px; overflow:auto; border-radius:8px; border:1px solid var(--parchment-line); }
+        .data-grid-table{ border-collapse:collapse; width:100%; font-size:.85rem; }
+        .data-grid-table thead th{
+            position:sticky; top:0; z-index:2;
+            background: var(--parchment-deep); color: var(--ink);
+            font-weight:700; font-size:.78rem; padding:.5rem .6rem;
+            border-bottom:2px solid var(--gold-light); border-left:1px solid var(--parchment-line);
+            white-space:nowrap; text-align:center;
+        }
+        .data-grid-table tbody td{
+            border:1px solid var(--parchment-line); padding:0;
+            background: rgba(255,255,255,.55);
+        }
+        .data-grid-table tbody tr:nth-child(even) td{ background: rgba(210,235,250,.18); }
+        .data-grid-table tbody tr.borrowed-row td{ background: rgba(139,42,34,.05); }
+        .grid-cell-input{
+            width:100%; border:none; background:transparent; padding:.55rem .6rem;
+            font-size:.85rem; color: var(--ink); font-family:'Tajawal', sans-serif;
+            transition: all .15s ease;
+        }
+        .grid-cell-input:focus{
+            outline:2px solid var(--rubric); outline-offset:-2px;
+            background:#ffffff; position:relative; z-index:1;
+        }
+        .grid-status-cell{
+            padding:.55rem .6rem; text-align:center; font-size:.75rem; font-weight:700;
+            color: var(--ink-faint); background: rgba(34,29,22,.03) !important;
+        }
+        .grid-status-cell.is-borrowed{ color: var(--rubric); }
+        .grid-status-cell.is-available{ color: var(--sage); }
+        .grid-delete-cell{ text-align:center; }
+        .grid-delete-btn{
+            background:none; border:none; cursor:pointer; font-size:.85rem;
+            color: var(--rubric); padding:.3rem .5rem;
+        }
+        .grid-delete-btn:disabled{ color: var(--ink-faint); cursor:not-allowed; opacity:.4; }
+        .table-header th{
+            font-size:1.03rem; font-weight:700; color: var(--ink); padding:0.512rem 0.64rem;
+            background: var(--parchment-deep); border-bottom:2px solid var(--gold-light);
+        }
+        .members-scroll-container thead th{ position: sticky; top:0; }
+        .table-cell{ padding:0.512rem 0.64rem; font-size:1.096rem; color: var(--ink-soft); border-bottom: 1px solid var(--parchment-line); }
+
+        /* ===== MODALS ===== */
+        .modal-content{
+            background: rgba(210,235,250,.97);
+            border: 1px solid var(--gold-light);
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,.25);
+        }
+        #admin-auth-modal h3, #borrow-modal h3, #member-edit-modal h3{ font-family:'Amiri', serif; }
+
+        /* ===== SIGNATURE: illuminated drop cap ===== */
+        .drop-cap{
+            font-family:'Aref Ruqaa', serif; font-weight:700; color: var(--rubric);
+            font-size:1.782em; line-height:0; display:inline-block; vertical-align:-.08em;
+        }
+
+        /* deckled top-edge flourish for a card */
+        .deckle-top{ position:relative; }
+        .deckle-top::before{
+            content:''; position:absolute; top:-1px; left:0; right:0; height:6px;
+            background-image: repeating-linear-gradient(115deg, var(--gold-light) 0 6px, transparent 6px 12px);
+            opacity:.55; border-radius: 10px 10px 0 0;
+        }
+
+        @media (max-width: 640px){
+            .logo-subtitle{ font-size:2.1rem; }
+            .header-location-under{ font-size:1.1rem; }
+            .dominican-coat-of-arms{ width:84px; height:84px; }
+            .header-inner{ justify-content:center; text-align:center; }
+            .header-right{ text-align:center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="elegant-header sticky top-0 z-50">
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="header-inner">
+                <div class="header-logo-container">
+                    <div class="logo-text">
+                        <div class="logo-title">The Dominican Fathers</div>
+                        <div class="logo-subtitle">مكتبة الآباء الدومنيكان</div>
+                    </div>
+                </div>
+                <!-- ختم مكتبة دير القديس دومينيك -->
+                <div class="dominican-coat-of-arms">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAHgCAAAAABYv+FJAABC7klEQVR42u19aW80y3Xe6VdXkmXJimLIiRE48E8wkJ/DncNlOFyGy3C4r8MhOdzXoXUhb7qS/HeCwN+DBHFiW4CD2JZ9ZUv3nnzoraq7llPVVT0z5BRe4OXMVNf29Dl16mwVwHsuM38EwbKyxivCf/tTGJbBgvUJrcrTzHDt+rscZCG7bYxqH6qfZ586HK5kv5XRexagx4ZdK9W7N6aV+9HhuvZDWWBY7OakkyY32mmbC8MV7l0ZSXHwsHuOPietjwzXuvSyHC9+128/13E/y8M1L63UojV/Ximnv4mrqMPacO1LY8udsjveGbJr/+Uokm973P/xIK1ZMDAjxQIDnvjed74RfIJvRQ//G+LXX//ql39h09RtY8DWbSDKZEg6TZNHOi90Hdbb/aL5yWxiiIuj80q4ntO02jPPWKRQ5baw9lAX4oAzIyIiBdkmOiuteUKHXerIhkVa7mlreIBeypm246eeynyDXvYQEXFMXamJnsslhcPsD9GyY81q9dGF1SZr89CYfqhDxEzKPiLitaLC2K0lQS6DLSmr1FibQzI2Jl7tzmwrJRfh1yODR8af+m1AVUSA60CmSFhCxPUCzf9BocH9HPFIpjEKNgAQq0P6VJYWIqLUqnvlQGgCcNGGgoxbQxTVpw7Zj28uZOJzJwAjYkUyynNEfB4iafz6uzr03KK7tiYUiswhmkIIVxSE7aokNiE3jUnnMkQ0tyRixe5JEQD2M+R6hZhjB8VIujuEmAiv8IdFByTGfjzKfdNZLsyyj4YQW8Lrgom+cu10MwAfdZF1y3TLqocQK5eh5maXPEUAWOGxmIw9n3fRmcx1NoTYCN5HdCsJhZrNVvQp/H4TEV1KcEOIc+VVsSyuSjPqAhGxzQDcEGzRRcuceC7dDwrvrjhwYN6xva8dv0QpnbWx+eYBX4nAhYh7HxDeEUTczX997Nyg20nZRMIwXxKs3RuQ83Ma/Yjetoj4lv/2Hj2UfWRpmKdl1XPP0HAF8eZH24pfhBN+QX8FIJKmE1gBAMZUj2zaCwTCF/r1w8A7L2RZT97AbSRrHv6/x37W4uSKihFx/sNw55bXc5F8yVPBKhHzDPRgBSGe/hh8+kg0zRu/2O4wCCcw69HrcFUaAIi4akDUorf4+AOQb86osO+des9TgmTwbegBmslyADOuLZr+e4f30ZNOUuP4Gq33DCYoAeLBnQGHjlqpRy52RPtzdrYr7xpiyTvts1QyewNG+Mbn7ctDKsDtZPM2k/A+DhEj4oEneMUNned7g1nIQ7TfMpCxzActUvF8EPJ9cwPvk+hVEQ+iDpJAF0HIWt0RwPmxlIlwWXGuT3XYv+C/Wn0kPtvZUf78sAEAsPySmdbEf/7syy+/CoJoioj47d/+xxf1ELNLcxaznD9ehDBCOQB4MU/X8VLPQpz/6t2RL/39r5HoI/u1SC82AwAjB6IBLqlptcNoOq24zMy73okP8jk1yCtzqKuraPLwMHeshZ382o4Rhehiuo/MAky9o4x6+dlVTfVPCnsvADwAAMCG0GXnMEqENB1JWRha/5NII6kUfc71HEkM8WZxaYHw9Xsl4vxEDF97wmFVWa9z1kqkaECM4ideASY0DS+JCLiA+J9X8LwDeG9zVv19l/iGVabjnUC5shgDDKFm69JMzcG/Tk74tEAT8pHIV4LvC2udeOC3eg2+8wChm0E7VWCSAN6M9Ffhl+f2O/HEO2PTuUCds6L4Zt6UOuXVAcgRYDt2BaABnD7/RtwXiERcG2iET4uQLwIwKSnDss22tZldLi2+zwwwujdtNlFgr+ZlaGC9Q5bXzBAezy5J692w511TfC/zrJkpF4gXBIBPGGMDIyq1EHFD2f15qgYVAzwPcN4BgPVCRDywbFo0E3qpZh6Q9zNOIGDMAwwtpYEx3QNuE0B3YktSRqYuyKZXBxPhbAqVad0x8eX1WbYF7vJ8/8DktanEde6T6rWkpaYKgW0ZAa+Ff9wAwGoz+vK4ZYLwRc4KMmjlzJR8AYDJzszie5Vv5tasYUTE+72Ugt/wJrYgPkiemspyogyHbiUfR8geIko23X7v7JmvtZv8zTayJtnCCPhuZdVia6FVWJVDbS/uYCI6vOdlLAw3cgAAXGdf0He+EWeHq4/gm+XBEmWtkZre9KbiZqrxR8TTtKUrPNY9370ECPMWMvhGDnQbnCLTkIZ5N9qtQUI461tGcKmJFfDJFpXR8YQBLUt8s2N7JFeArVeenM+ZjxRf7CYAQFNGwOlrNGoqbg3qRpzNk0OZ5qvSQv6CiLhlcaZ+BHxuKaz1APM0tgqH8dPdqJE7QWPFnD0GBOF6ZpzjFgorroGNeDnZ0qWu4F0OgqsM+zCHQwKnxYGpnUF4pf/x3c3Ac4WFAB6XmGFoZQ5yp9ucgnLSAJX7RIPGwrkYvoaxAtTMFpFBeHfQxKtCRpf5ROWR240LeOc9OPLzEwj18SujP/VLEH7sdzZdGN/wiXlIoh0KKLPJ7peWb2BOPXbG8uqNJWJbXCDAQX8jnLVvWqzctUIKuSsMzDTgo1uAV/J7cjzcCrGxVkbh18/4nrIfD4uSGNf4jhvSw1c3NHybEm41+v8W+S0FbTfi/sW3XpSbLnNnS3esOW10GZ2VsWiUd8ila4p3qkqy47wThDMZOq1ZX37Kh+5AcR4rk0oe3cwX4Yepd4OwE5J7hnzqoTuXeKy7BridnXHWEwTeCcKOWGqu3TfHgLgPRQYYO+HwPdF4HQ0kwq62zFPwsvX6LslQDyHjq0c/tlf7GeEC+LZB+iIjDhDAqwJ1ZbLhkNIH7fhA2M2dDcgFsY0Yje0X3Dk/GEw3B0R4ApDF8iFsUIL8Llkf4ACwX+l32ZK78eT7jINXYJYn4DmA09hSsmu8Ebt5wQPn9Ht8YjwC7uZYhADgbsPVy3f3v/75N38h+W30t775ey59VgMAWHvITa3y53RqDKTr2i/0e2exfQFi6vN86YaaDG8U3HXSaV20BZvE2vmgYbf4Kq3v97IpTTHhpRdFV7lpP5f6tTNxOvz72Txjcb8hzOdvkw57Sv4z395YkeVddDKlJ3eitY3qrL8Q5p0QdKMW/vTq5GR04/ay5n0nAE90rCxqfYQw7ymFVgAzU3ixpxUPZacwAQPMFp1ObxF+5TJgv9rNNnl+zmod13T76vahzIejtduc0M6wEMDPxV/YXiJ8xtn3ZZb0lVkVhZ8V4s6umOzTqHMB+7bIhsN0X8nn+yqr8M4HHclYt/LojZ1kZ+KSMU9Y3wp+U3PCrPeP80pL9ufEm4s2t0YuRU9PDkjSG8omcgjytjVLgCVqDScWRVE5NjwpyTx2qGyBVWFiH+C7Shev0i+SuyqmDDEQ3f1ZQYdFmEurSwf4TSYwhg4Mt3HwMQ3h3mzDXK8TmoGKRl6x3H3PhZuF+yK4KmWczlvkv53QPEuee4ywvWFP0BTicdeaNbfQX7HZBGbk65EuFVflQajiO+kpwgUMt9ljTKzEJTTzKnw5/JZcTslaodcl+TM+dCxLJ7LUQ4TP4jtJLFYZANbTfEJ6tpaRx3vgELDppmPmyTonZuKmuEk2XQsThFkKAb/ZTxfY4F8kAzzZI3QF/jT2h/bsny9hW6MS1s90OIk9Y9Dm85zSS2Iavn6C5ZeiEG/z73NiGlGdmTmd2oDgi6K3lWSq6BHxisUec815Fl9m1i9bfXVY4nrqWgBciHSOsJeFH8ubFcAjkOb8AIMOy0L4lLUAN9E3wP1BvGlZsB1PrM0FjoCnTBAuRyvN3YdrRQQGJ9fFPoMXMXuHrOmbzeFLyApwxupz+ngDZj1ZyGTP5XKZwb4pL1YQA8Au8Pgi6i/1q7JbQh8LWMwRYcaCO1exvwo7tiWzZ5C6//ZiG36yFqCXIiMZ+UG223nsv2Jhh8DV0VU0xbdchNl0N+fGC2IwtV3ukN+X5cVePDCWz+Iygn3KoONh7hCf7D/RSlTYnKLr/vCNUmtC6ARkhpiZ7zzna2/+LgXUR3n//n4uzVvjkQYYGE9r4qdiDPTFKPhspxi+5EcGKALthhlfME6fnuG0vmCfPvBGwezLY7fwAeFhZkj1JxiAYvrWBwDdRftOJv8i8ETBLL5Vyz3cCF8cCHyBuUoiqNEW4TcFuN9PjIgrsMO3wM648g9fKH6t/Sj5834dBqYYroxN8O/Mn9luw2SAd/wLtgMhO2uOTNYuRHN1xHHN5THG5BVYEbC+g85nm+av0PPqgMjOLnZicwEl7eG24Z6E2TdogkiGj7bkO4qDWIpyH/ZRUdBL1+vhAmvU8W/YKqsHlDuLZrBfEF/p9fLeOJzJ+nOsmjq9x8HHF1mp39LMvKjUdbFqYn/4HviwtKQ6gjsc5FJEOc2Ei8ta8MakWe9g/WhHAABgKowqnPsY7Dnv8GHw0GUieKQGmW1RxbonJm2KQFzrIFSP0/EdwcEvyWQ2rXbfMDQCtJTw7BDhK6atW/O50pfkEvE9IQxW+KqfZBp/cEfAF4XkYk2t03fDnu0QBuASJgMoo2N2zBXf3mwMAemRqZ8MrnJDVu4b9DnxtqW1J7qunqSxJBgbKkw7l+b4ajKSBTG+jfeDb3jHDl1TOJWuxhMAwATN6hDYmnwKSlg8n1olcrNXfF+FvmS8egMqqvhTRDbocBN7iG+T9Mi7234FU9OJpZ34Qq2deCHmgJCSytlhmHF/WyUYVHZNBKx3jC/js3+sfRc2MtIzUCPxsFQC5qp9eHyZm60PqBQ/kiqKsCwSNmDQhzmEPzS+zAx3tfVWAZK88KfaNXFIwkY7MC8xDfFN57itrtZi12FCvyYnjHdBMXy3jSSsecbYQZ57HfEDILyhr0ZSZOVJ+KAYAd8ba1YvxwAIUbxU7vVeEN6kae8RgBSo44hJ2x2RAEDr6B+3eoL4QRDWSFrhtlY10W86kLNw1RZfopTQQvwwCJ+amR06Lf8kbEXA2wb4niJ+IISvKNVG8ydOYVlzQcL2DFqdoCRu9BDxQyH8qK/1wFMneCVhKwJm6teh0NnhHSKsrZUcg6ERfnOhURwCFIj7t8F3LqkvfSwJcUAcIpwXpZfZt98rCTNNLBvOBKPcISIajZPMziAOEebLMkTpOBnfLIqcdY2lETBTX/Lg1QfQX9nTMJMkbRRxRp3AuCAJMw0c25yQNI6fHwzfNLmnutpzunz3dJX0KZZDwJtM9WnxYz3G19ht0F2JTTHqzPQzie4nkp+8nYWZx4k3gd0xru4yDCnSv3822fTWw6Ri9HHsT1e9DWcTWpIQPkSvBLyVeTW0jvmaIXvRX+5mB+npBZJrAMZoOr4p+qtegITNrHnZpXsRPzdHP737Il4wMXgZlS19sA5lcmCXX+kKve7AOdIQHnPfdAFp1+wIHJoRa9K32FV5oLVLRPie3O+ULQmb0lK2ttA6FlWZVwgYfFl3sfbrmokWL4/0Vikvr825FKCLXkXoeuXs/lZj9tQ1KBzIRLG1r1C81Av1sGP03jxRFvXBIMByxI6ELTdDZf2KDb4UbwjduYRQLC/VujXnDFXXu4OdUYnhlqZvsyxatKvlXuuqEc645MvCMvLggHLDMv5UbBs2KaM2JMyEjxvxr2d93GNbPvMD1MbLEezHj8XCOQgntKcFdROzyGbHli3EknsSviEHn2H70E44kyfpC7TtBdsdajBP9fd/uJz97voXf/tzd8FFtd//YS4XXecXlHjNvXMAgACLxuRJnkVVMBo19U41beXI/G0S7meLesaU3OHaq8tU3cT5RJNRTHStAJNWJu7AFb8ilkKDRfHTYmyL3cFEl0lKTwpMcA1wVcQUPin59pyjqUcNHhGPZotGIrBJWQUY8Ua8PzI8gz4bL2MggiRZt8+9E7CMgknN5UwAB64heEYEgDl8GHeOblY5RwvqMFrbc+lDpsoOVvJ2CrDm2U2KjqjY7phxR3BUBJlFiFE79JVtAsD9cxIWxJW22Unp1J6ATwFE990nvmHqSUv0GS4I+QURoYsA0b/bQ2cYSyZDO9tQo94nAOAhtMeqT0odyoifHRNwhdaaKojlzAHtIgLgZPiaI4ZXwDhmzHSAjZi0xgbLnjvQQAQAuLYAeNx6LlrPoC0LCFYY4TN+d18RALESGT0W7LDVaNa0s50kI8xuKiNaZYdvEavAuxr3OqZ0h3+tmzFmRHwFmEBcA8AmAgBcniHAPWKS1LZjhq1aNd6pGk1XaYKMDozRJBTORib+lWitgV+EMcG3LVOAUyI5UYZHvF3ur85NSRVKcbUTSG/o3boAABi5u0eAamjaMVBeryoTq17UDM2QBNVPalmcp1QVknBWu7V7ERiJZGxLWEgxp9GzjX3/s//wq+/84KvP0oV8+vLLL3/5y5/mqm6mStn5H4ddBwAIAQYw81+WAAMMv4DKn7Mjm/9xts/v/e7v/NaafEzX//cf/1hvb1XP97ClqrHfTusiZfHw9KSIiLUn90iU+JJFbbXQnIKtSivb5HKyecA6RhvwK3D3sLF7wpJjnWVBEk5rLirbWiG/WZjdwfKDqlnYOrAEgOui41WsInjBR8DRSMRAOMEb9mw87k5mp0/4Tls1/O2Yq3SsUXZgQREr+nHKOb6FAF6UtJb8eYUYpp+LqTl8AXYQY2/uLAPa9g4wcXHSOgeK5ql2/zTsdESrdnjuB4An7mUKF4CbpN39+CAMiHWAFQSI5Cqm61mBenDcJ8D0UPlET1mPMsxJ/Sl0JKw/I7Gb1IhDfE0BHtnTNLSZfqojnsMWRgaf8DXfR5xOxxY9Iw7Rvp3vHcBZLnUs46BpzyMFD8FN9gG1biIS6BouAZ5TR43P8u9ePXaeiOb2lgAMkQYw9lnRI3O94xpgJOzCiaDIusWoePQJkghY7bG6QJuJzWSF/hUt2gU9W9lRJW87wDGuxILzeIIwAKS3E8s39OwJvL075gbg6IIaeZT37YJ4OVfsxKwpIy3WrK5mNHyiM5suL62unAj8KmJang4hXQ0Bnkz2Yz7hYup338CCxfD2dhdV09nP23Po6ez3TzOKQH0zjSfrEGFcDgXEE54No6suOogA6xDLibvs9RepvMgoHZqlABw53h4S66maraaqVAKHbiv13rSyYKbRhgXb1VwR8kbgjL+IAJORGgQOgNd0MI/ts7pJ/wDriWASkiPbInGPQ1sObci9DE0WlhQs2freGFkr5sYvsciMqXo6P8xzi73UHmDU7QnJSPbJK4FVCw69cWo65RnDFaIk8MuUY6lkw+pj1gAgDLyNAX6KJ7vA1E19/q75Vs9LAFgrSBOiWRqpgKzl0LcqSvFDwEi7QSstWUF2Nt/3HLIEnAC8OHfMkrDghPSWaXvSH8DIndoL7YtaHq3k0OzmRMlwPW/K4sjqT2QvwovLFvNr7EKyzCzQCwBO7WPKo1dCRQe3MjeqU9uKV4Bd5DzQAayRoQ1PesZ7GDH86FJ76uQxhxwBhwBzqbxmRQ2pPZ+dAYw6mklGFe1IC1oV1J4Y4VB1J3ETFE2YcIQ3mec0fZdRjKPKb50ziSaLA3gP4C00G4XxqYkK/knb39SjF4BN7nS1JGGtliO2ta4SzormQqjag2RV6mchmWOoXnllCDhd9YMxhoRDs+ieePKvMoXpszuAMb8/qA/6+osNhQC/GamxrtU1z80PGbI9+HKcrhEcFekq72ICvsUsj2YkmDTW90q33yeWrFuXACsfqbGCxpmsbmIIuhchnL4kpCTsNxRmYTTNrEPmky6WqqqV9OO/lzgOjRjeFYSZW9Vlr82VchTj7aIA39O0+gSxS0nCSgK+k7SlBrhrBHB8zrnZn7Cy14AU3wyHRoRLTs2Ra2A7r0/SlckDa4BJZ2GSXK0CuKIC+DL/pdI72EYNZGRuPVXZGoCzhmAY24FrkxwA0el2ESBNC6Pc5chjq13gudnUd81OSpRNuKo4JOXznqxDmt42+n2PQMD7ngBe0DzNcdaEwfFrFLvTIqcnUgsyV87twfzoqzSAVZtoemjPj2hCOrZzbqUg8hpXTGPJfpLaMq57dpz78krEoRHD97mZZdKoC0xp+AQYCAB3qTZDoy04C3BM7vMOOTQJYLE95UCoZAOegB+AfwWRn1P8w5QWpRUPAOvuQdgOG2wQFdcigHd0AItAUHeDjgGuUh4UjQEApjGjrgd8jZUhcnuhbA6bngAG0uKojDJ7+TNRzuFd4KP+lPFNo523nQJ8YmguDD9Op68n5M4xcf1NsSFZbRPedwswkkkzzM7zrKs3gSaHpOy541U9ebpXLRFg8kPCd0wM8EqqxoLU9UPQ6IPVK2kHsMqk356CuVgsmDHXVmo4dNKwaN8Sv9zoBmBVxFdTtqrrOb932EMpCWPWIEUHa8MVwEbuLzfm2krVFhyekjmsCRx61AHA6vv+slFWqUbpQUvAPMBjWZ4zZQJXzQXAZLmlq+7hWrIJp+t7LZehMwDvuhSxcgDrDtFPiiXN4isE+DiUSMRSw5UhYPOOAAa1dntWbAAXLeMYGh2S4r/reWfTbFkuDDAhMPke9Ph2mdFP5MZzypIwShsxgGy9EMDHBnL0OBqbDGkyFiIyHj/KHpYsAb6wZOeCH5UEnPBomdcO2rHdmrWzHhXgro06el4JMGsVSzMotNxyaIPbOPJLfyfDFwEAzsQAXwpIGPKsiCljxAGu2gOspswLvT46zTJaE27Be+TVlfy+6BngO41Ek8cXEKdnUEPCSHTaoU7GfP5X6g5O+WgivRzNqaNTlxU6/Sh/rnsC+BSI+DKwjUvWG6JQ7wf5i2sfN4juebRMLqLwaCNnjkUCwOgFYKHfzpMGX5CtN7SEJAyoZNO0ydkDTNgGauZ+O2apk1SBo3v+ACZoFCQW//EpGQqsZ7umSd69yQPALc3SrSKyieY1KhMO4KbCFoyoPBiLUZhyD7DEj0JcZ5RAwOHXzFyq4rh2ccdN9wBrmN8JlYvEVZ73BDIWZRwzXji0EuAjkkIw+/29DuCj6JkN8fNR2ZW43HkCeEf7ih/SOF2D4Uk7xhy6TIBHwQpfjFdD6lQudbur0KwKjgFeIByUVqj48BuvZsiCuW3YKdzMAX6UGmyuZYPcZDVLqtXOauVOhIFOqLh+ad4lwBrqqMiJ2wPAysavnQFMN8hJfCpnEJ+lSzY+jXgh9qucIA+kNICpje7mYF1M/pIdX7fMAEY3AO8q4D2j4QuIqMn6C2KER+iv2pxbgMeJKlFZjqPU3rSRk7E6VCFWMogzdwB3jRwmBD+BlkOHPy1LvO4mDLhJzuHEbgkuaRIy7STD3Ega3garaTo2lo7rNeJjxQFW+8NcK9Z+LYvvpvLO5iwJNxRvkdof/7U4wDoGuJ4ObJayo6KNmqPq3NsuB3CRmAYjAg5/HOOYF7kj5cAKAfxKtAOQAP4EhuVzANr1ZJYlCALdKuYeEejkAlUkNMtbAcJ8xDsCBV9uJBq/aO3YaeW/Kn5rIWIlGtippE7FOG4093pITge3BSmYcJFQFUn0W08JuKpVOWWkKigYwfJqT8E32pMwS7oyR+q1DLDphVmzVIC7zk/BxMgGzXPr+b1Cd8FNfmdpqDt88+H4Tj0oMcy5oZeyIrtQGkx660QRfecN4GfdY/k37UCz1A3Iv5g6pGZ6BvBDuLjbNMd02L0x10TfejoFEwCeRiq+dALmSPiKijB6BniTuEi6WqMROc4ajGq6ZwCLnrnXur3rAe4I9hZtx4+eAF6lIadxO81IV+YylqTijkeAhY9I4ogYpT3hSmlhujvtzoCLXgAmxdVXbqlLaQvwrKrdRQ8AHwuf4PfCXSsClgC8B8KIRfob6QtgUiNTlgADtJL4YOccWrFeC6QHRPjOEEZzridhWaa7fgW4ywE8nYxzmYoBlgowmuF7YUbAPAmbxid5AniLeGTWAjUPn+D3kkG96CUHV9cK0YtsEQOZsmYv/eKR1kUtff5aFrwlUVEx2ZfclFBD89eqKvsAAEETACDQHMovfmjsr4PYkslvHQ8ULKv8ItcCmxIwT8KAhjQscSdCPzz6MXISnKUZ8PcQAPCm8KDC0nQOsLTugrTiCxe3Quz5jun/RDoiqey6WR7AcXRDrIeVGCbYICZIU1xoun57owzt1BnA9KoHEgK+QAMSHsl1u0N2s9ssD+BkZOHnGf05KU3yRVr+B1s1myHABq/CmEQMpAc7IYlJqwbVKBXguMqxxPbOA2xMMiUAbEvqHAGTT+Rhrv963p3AhDD3XQIsOYjiGDxgGGoaKQLEdr2KGcCTglkKDv/uAFZVW6FHjhr0LTsF5jp7VJ6oHQBc1ZHwUajHCAcnSTV4YUjBiaVzhfEJ2vYE8LyhKCb4cS18i+l97wG/LIr+JpViSnGAz2jaaMIhOQJ4EjWuzolqJDkSRP2sCRX/1jMbUWgFafhe2RJwloQPqD3KR4gFX3Tpz7Ok5pOxLjAuOz+QH5gXo0Ct/8Me+/+er/NXoWBufcT/PgBo7u7dz6sbWABiM2kXAGDdqPMqd8d2W9KBUueRIGu/BJTyY5LpLSlff/rd5O9vK8cNAAB/wn76gq/x5wAA8J+sR/493dW3EFwo8U0WfjHcLE06/5Hey4v5taps64tc/h+PDmy6Gv/OTJHFCFkS1+RHa9Z0aBE+yv68zH25Z8gkZ3gmPWOrgol1Pt5YdKzSOmlUJ4QuxNyQb9Aa4HXHMhbeqJ+t65YZ7Hfg9IFpUdMiX8AXZWMVfwCbOarVbABewug6T7cAIxiSL39Y5KfbNgd4UtBMVLSJIyzNeoqZtg3e8z2lpiMVa6idH6IwR4RPgB9EK/wonNGeHQHHjzwLATwxRLg4wIvqF31i+fDylZZMKU23SO38Xuxa6RFgvZfHCb/spzYAj/J97ag0kQCgup20yDrMRWYC6VJQ+mEBrpgCjKFlsFMawEJ824oN2DLAHuVMOpf31InnhbBsKZvumAMMFgDjVXl7sCTkRFIHEfXO0EoSrogXZIUwjLSpRftluDR4dzqOAV5X1HsqDvATHd9dFb7WoV/i1qKyZOCbI7kc0IkY/UZpI1G24CfykToIggdFhX8pfmz/H+ST/AGn8kiTNt8ybi/mZTQbscbtvK9iGg7ORd/u+FNu1CiVviVS1ChfCW1+pnZxCiaHa56hDwLWkbD0Og7DE19xTceoFrKaMQVfokYV+1VBVTTAJFURd3Ug0SuGY+Rvjn5eCtJSaStH0MiSMD+AZ8llHMF2qW6IQfBzrarSnIIZIhb/GuY7rhR4czPXhUnNDi8y+l3Pko/kQrqOjoTbMuo8oXnJ7vqkYJIgv1ZUis6XI5prNVmMpnoc536BGiuMSsqS+h2Tdif1kp1wdUrSJ1OKQpmhjfKks1vuAT6kemyTAJ6m4nue+wWI9rRr1RBk521FdPBzOQAnPYX2e0nFpjHAbzSA950A/EYPCckRZexKSdjMluVj2KP0KB2bPut2IYCjP6oKgE+MAdZy/cNET20/s4YWG/2wAMkAixIDxidYsEF41oUQrQU4IiKYRsRZScW2sRRNNJ9/o5B8eAcAMBbQRxHkfgriKoeUDl+CTraH3VxPAXkp/iR4LEGK/pvYwyIIgj/RLhQ5y07CtfzNoQMAx+kZwAjf6OCX+q624uMdQ3SIufwLu7nXaYr3/zFCGNYDADjzCe8h/JkZ5ZkIWQAAYoVizKJPijGnjsbdiS/TcgaNiJKIYcyF5+/p5Ky8c6puRT2yaIwtTcot8cxOim5r9+ATB1OTlFxGyAsBvmqDhfjZzEN1AcJXRiONZQlPmqzot22VvGMJcKOHAB+rah9ppBuli0/uh+j/K5VgOW/CalyrKvXlTCBkjej5/79qa/y60P6yrFizE5X3auRTE5hE66JMjsLo0xbIt2H4/BR6UwLDWinAf6l/7FVb4+tCg38xEOIFnq2P0DDqjtF2BZySejvfaW5dj7AfEJYpo1Pb3mduX55f+ZkUCd/00j1q2dlJmjn8lwuGhK94WubOXzlKz5WZUhCu/ODb3/++rM5vLKRohmPdSnXR8+hjE1ZXHNMrCOUzTI80TLxKkrulQh+Fsy2YlElJqkrlpCUTIetMN4fjvM7dvAhN9duaWRKMsKoZJu08CZSmYINwqQCDxppEVXQkiqFFxB1R9o9vONiD4Um0XB31XpEkEH4oyP5XBdwX1awXz6D0knqDXwMcj68prPNmLJphCKLa5w7fXs0LWhMZhfYJOQG0HmrpV7MipcgGacQ7fimY+ftaesvOvM05OL2zQ8Q4b/wALKizb8qgaVe3ZhAWjujCmmf6OQdL601b2oNVZmEns+tqt98Mx056XykAMGblNcRjMcKvBIQLLsEzvRW5i8VoMYAXvAGsz9TxJKzxRDJ26rtlvjkiD+mGq1EpuAIHko7y303JXSyYHTgTdkkqpyLdoXuA9W/AM4lBU8LuFUy6C0aDKroCywortPky4if4HXNB7juMetBxSUXhOmqVLZMrRBXMCFmWnkoNkHGjixWttselVuufpMqSKatuSJcmZcqlqL6b91cTzCrzkdE0Oq4f3GiehK81vQr1BLNuFmBXZkQifMlRcIAQGL+Gh21B/cDNuxyoBhOI6SbQ9brwuX5w+WUIUNMvfeDGC4CiH/gvH//2r3+uXSj8zGYM/9PjOR4DANi9MMJX1tbJb77Gr7766qvg86jixBdy3ppXLY8lCPO/id8n9HiZVNRBAAiPf/N3P6E/s8teI/xa7KQWGe5c8GjSITlhoK/i+hM0m6FSzmqLBWWQn/H2He1Ral9JEGnQRXN53mR27jONsaFKAXjBwQRJ+E6qN+ADqlFYKWtDdhcHnU4MfQIcu1WEK91GnNLenDTPJHw/pq680JUpVjA5mCFJyZV+P2/q/CMDaib35QZou+fKnW+AQz2Pdq1SgGvMNjSt63oVFjDNSOLF1UQ+aNkCC4O9R6wAFpHwqhHCDmb/oF3GO/0qc5c2GLtV+gZYlCHnXrq8INf22QJ8IoaMgLCD2TcIy/gK0tsF2XOsBcCMeQy9ASxYphM5vucFGLQsko1bS2mz+SWWxbSZc+gdQrUTRFm9bWuAVTg6A3hyUvxWJ+VKLdUw1edPiapKqUpTcJ9LXDoeCJi+iqFGQqfnAIDkXmk3pr4n9yScDTWsa5Y0/8ZuEid4mefRbBcLal+T9VIBJh0oEQCEaZJtSiiELrmY5IGS4VLlMXbpzYQM2euWHcmccwJGM2aqB/gT2FgbhOUPw53Jhc6mrdLuM7rEMdHTx3kt1TeLjKYaSJWUP2YHd1e6945W2KiH+3kPXBF0LT1R6HeJSsD0M/qKULieKcBODMupU8eYkz34BL9IhQbol4KrBPqFLmrUsOYUHB2w+NRI+KcKonGsgT5OKc9B+e7fwycmGnEX+q6o8NXYkH7I/P0tw24P5HYEKcKBQ6PwHzhqZ/Nzenyw4TvowqYEL0p8V9VN/GsBgHNzCsqjYQCAZrHHD2WLVpDzT7nbhBHuNfeJaX0kl4z0fxrnHvVNLHeudmBHckwG2tSw1j9SFqJIRHwTa5j0QtYjeWSLMj3sA68M5ssSdt1M+8wLwLt9CXC+3NLOnOv52dAzpdalili1XdbprEfcAvyA/QhwHmHOBnBuxGaf1PpzClzXoNCdOgZY/fs1eenmwuuQa/yNYYWHt+Fmrtn0vTukDZiZXz1nXioCMN9nzQ++xDSGVIDjYQoc++3KnsRE44KE1zlpjjY/zr5WFGDkQidnpepxvwBf4+XKpKaRq6z4bCRGL6nqCVt5VfJTebmRreA9kKR5plbXBcDIXQMy4YOAF9WtQY6LCC+tXrAGOEnhsGL2Ao4XJuElI6W+QI3oAmC+43H3+EbDOaIYFxJNuVbGAmDsw9QFV9bYcmUnTbrjIqz0+fJ9AXzLfT9ZEGAwvtgEgIRFHmCaGE1gSQvCX+dtAY7vCFzlhlHTPlfJCY1uAM5s/uMFCTjv+KoFuC4at2xS891kf6M4VnIvA3kTfivkLR021zAW2fKul1QgbnS7IOYlrQJ5z264znSqwFp0Rmoy9RQAM1diEXhN8jsAANxQAE7i067tb1HIuqXQA2cBmHQHZIBrOiIazXOsghvvc4MfZYt4sJCtSEcAqx7gdC8kbMLzzIdxRET73CzAi+BbtNV8ys6nqC6aqcD586wUYNA2iiIBY849MCqAdZYIsHYUx+yvnUQ4WrLOW7ECVuKaP4AzQ1gtsAFnv7o0EIQO5DxNRLdXOoAn0p9P6JvwSVFdBya3ghqK4ws5PuYM4MzVEh2bSR2FXV2I+tZpm3b4XWuVAvC2Nj6J9ZgkAHySO07YJ7ln3XfMT1jcx1fqc8rE9Y/s8cvqiB8tM/UspxnshWTqrQMDk/B1YzL5UambGxeKr0VuemMS3lybA8xdo6K/nnybssipIGB3EfQpYOwmNm4l6qcqPcED9yLPBPOrV2g82omeJ777XRD1Tibh1DBfmEMjYi2q8GCp4WiGglC081H7rgIAL8RrXm0W4DEDgKcJAN+ye29RG0Yk3M1YacHGmE/XjgDGCct75JNylUqsM2qGK0BuJnpLTADuOtOq5tu5c2BntpDTuBllQ14k5UWiaxW/c8V2npwsrQGAv+mronV6Hwn/Cp3uaovMg26dsatBA4q3uRlYJ79gPNC0mTQjt+grwogCCBzcMYqnKavRVP0KANPL7v9M6+z3RzUvjnfxG/SAeonbmEvbk7CO/ZlxaMk51rA0RX3L1ViviW3wUoXVvJjSjAHemQKYOtYu0pokn7FpOSgF4DkT3bITBycTNZYgocgWcQsGSJM/mBxBaGGkm4WdyOxI+I4ZYxSw4I6AXbjJTuV3YDBZjyPRuUIC8GHyUff67mkNaxldhyMubZED0hTgpgmHdsGXgMnKQxQDtS98YhjcsfN+j92jFrT25uTTOCJWHazGkekT8bu4F4+p7W4H7jgCOIZK65rP/9iSDWBNJuwa3lGJmFhDtboOxJUVJ4LWmz0JUwCeMtiklh3hmwCs63uPGHotPc2krJe2++6HGh0FCY+k2rxL2HSyIKYPjGUAPnVEwK7CcxhfUb2IZWYJzwG8n3wxqXl6LqsCzFXb4Ek4fyIoDWGIgSXYEOhSpjt8IcM9ik8+MSfugzmPBgCA6ej/6+S7R0kvMb3U0Fmx1mblfeezZbNsfBGY5OEC39EiekRRIs80BhaVwbqY/h9/KQuo9HA3mGEQ7s0WN7n1e30ksraDwNG8Aqaz8wNHC5aHM40PTvJiyK6KCf3RRjWqSf0rUjxu2DjONrIC/lsf4asKOPdS5vQ8mqk9q+ab4oZmPWayJOhkVPeyiQIYvfJnHClkCdac5OFmXkV20udXhTWm8oqqQ1E1VxoPk8p8rHtFv3WVhS+aWIJx1noLZgEesbU3VAkkDADMHRrlIcxNcaJ/8J3NE/Bu8X7VAJsYHOYAYPGOeqZkPoyVjDA3xdG+wdeMgKmXfiYy5OKz2pJLXbY5XY353CndjQ73zg5g+u2UvvGt5Al4nPY2WBMwGF1yRwyESGDdcaqkl/urWACc5hzSNbWEXgh4kriWrcIAP8Z/TVEXTVspMlgmSuBLV0qCUVcAA3HS6MiynexwdBUpc9IpBDCRhC/AAOAsZ3aY64BUbUYDcIWOL6IfAp7QLeU2VFm1uj2+NIA3qIHtYY3oko5niE9K6B3hupSAQU7fGuK4cIrvuCEBc2fcIgCfAVV6ivLB0o0zE45j4RGPQCrAHGen/CzsnVUlqfuadjLuLSsROn2VYyG5bQvwHIWEQ9VBdG0NYUeIz+gdAIBFdMroxF8vZNzduVB3MXGXIz5XGR9eOgHfCxI3zInGBNnkOpY8eplxpEY6Cfso4hcmr6U7kiheqPjOuhpv6j9EX6Rr2XtpTMAA2Eq9pmmS6fW9th7T1KRrvIXNzct1OFGNmlGOK/UFJxYYG/raZX/eED/yTAB4lngUnqStj2gydbcILwABYG4oLcMUZguuWVAYzmnA5djwFgZLOQEvUMISNKM8J62QKBZ959Txet2I9mC+LCxKZ7xgwyP8EbSoXNKSyxEIGAAfzBzgzUgYnG5o0rnqYkBMEpgRwpRMyjGXsI8qpgAAZDwO88+ckgA2jXAwVFgivsrzt1iXUVBqrwrAuwoeXkamzRtpLjPNMgsMc+mkJmgAd+gILyt16kzYpi+pOqemrZI8HLB09gyruG0TzQB8pArYcmhDm6ExCeOkq1S0eihmihEvIsKph3HOMKa/ecYDWVNSH8mlunD4ycFgFanRn3SA9QOb9C23NERtbkrmOG35zjhWQlNF6NBtlbv+7cyWgAHSN79CxXfOTEz0xabFjXaXeWypMduG+QTIZdpEx4GcWuKAZBTTAXxMJ+HkzsMRulXpbhkygoazUgGj96xM8mUFS8gqJmgapfDk/LY6NrmnrHl7Qo/Qf6bs+9Sz8HnycQ1tAskKwmIGMNnaTGfMeYBJBIyY2GdpaOiPEGlSaHWTISt/0d85yjf2to0uouNNidhMrnCO7nmeXKIRrSuerANV1FlMvc5MkmyYKGPkvx9lW9sEgFtPCiJpKm+DyNAFH+QL+uvkBU+esgiOOSFg7qBsAPCJtve7zIT9ILwtTtZXeuARU9YAELEjNAopH1zOmL+kFV+NAL7UkHDuKJvW3RJHDwg0lrv+dLwqIVMvN577GdIOihPy0/duVOjNU7HpiqTAY+yoktaaed3vKoZ5MhXmnfzISxe2enH2DRcGEVdslNDJhxNCTBESNbR6N1MxCR+oD2mxX0zqmmWReINSlpWp60uHN9+4kf+5dnyMBsc0lxkN4KVY37Gj8T1OPs4iyvwxekXE427SblCYLYlBM5kdwoibB+lba0jAAKkKQzCES6n3mkJLtZA5K0XHu2PsF4j3nVsx5bw2f64QSgNNFryF1pS0/pIxwMsqEha5U47xSR3q8pcs/WYF/Ag0yGiKqFVfyjDrmzHoNHMCPaqXd2mm8WhRq3O5ryd0WTuSUcTpHlphrUmv67pPvKvPM7zZNYmWYoasXFDj2zImYICbAjYlyUPnIvcd70u7pDem+4dXjC9J9bhAXXwAgKtbA08WE8MpcNprXYxXoocLvxvzvLgVzT1a/uFFXpV7QF3XDq1a14KATez+B1mbw64uSjP54hhg249hiSvTyswNWAq+B7llUCZ1GwOSEpgnr2Wj3CGoT3vAn3Dpxs3D9HO3nDWek/CJMuDFTGAqaIOB2YFFkf+nK47U0FauOxfh26ivfJVp8GYV8bKcvXg938FZKfBihkaoG/Ae9UTFpKcwzFcEhMx3bDml+ydwZ6VQrj7xvdAX/NAWfMPb2BQdkCYp+N5BPrbFNQEDMNczmxz21Lwn2+ISQCgmYDnE1Ez+qpbQWx7fI6qJIQvxvF7ANc7ehbrUJeqzG3HsT+jP/C8SXgBxh7mz0mPpxv5t+enXiGt5LlJzcuUthWvUGOB9UxJepiPM5VGjeTm6KdflvU0odDckEDAixp7d4bJSTqgW6feMzsJUEo4Tk20wz6whdgzy5gxMadjhy+uv7pcUD6SaDe7CeSrAB3YA05h0YrqBhVBsnHt3AAM034zx3Uyj5G+ALELb5c80JeG48r7RNhxvMrosCgOIrwX98mLZlPoRZhMdswK4bQewoZCYCJzvBdkKQGR0E8z61ViC9kbApiRMDvyBfGD4uyNdwHkhvuu6hx+iuqvRcwpF4nxRfCG9Kd3BbUpKhCPlw+I7AXgXADjdjRkrPE2rqm7/oBHwJ8VvQT39U/s2tLknSZyBSU9+CgB/2O4GbRj8Mg5/BwDBMRMRRSS1IGByxgTB1U0Av5JXTtfTOs8685Yc0ij4jnQjtFA+XGy9F2YNAHDGzGSGngM0R55regJeLpCC3mQXjhICnlGqd0SSVu2Zmja3/xG+ZsCao+PLVNnye0TKkzAxBS3RJfRUJGmtASDCyUCTbidHjRWjBWzyQpSUE6bBDNeF7pAwJmGivgN38s2OioN4Bkx8zqZdnaau31F0d7ORUgmKXtVyaIDwNo+wJoK6KeDSZyG+ZSqn3QKMrO+hhfw8Sa25KEheZ0nCqSvmA/kNJk1JcJfeZhiz9ACDTMHP0Z8zZvhGGVYASPdjuSJgPuCU1m01UrPbIAwDrdRKZ3MbHelNlk6kqyTgWyl6qjPIiR5VbVFjbw7yuQSgPri7cD5ez4g09lkFtOYmnaThmoNbusxdaKmCFia6gEbO9AA7c4OH76KVch6jyIFR/rmnMhi06VEpcqwjI3wpcPyKuXRiM24NDPkuWOKLAhOD4qmppOU3J9fsMTnFiPosOsKiVchtwzoTTO/LTX6yV4bW9PWMsxqURcAAVYs4h9g30O6KHuAQXudZeN9KV5xSYolLcUUSsHIWNt09T5DeNVgik04QXo81peYINy4xM9fHPpa7RErFZFJ1yoK104fu+DYE1TedSlg5TvBARziJZKMivCpTuyPiLfQ3+V6Jp3RHe575c1YHsGsGHQp0FqZ/w0QFiowCyc48IOR7Zr5Yz6x0leK9o1ysN3cmTjwxQfjKFOGaovH4y5X+Vz+T3tdsaYTpYSPuNad7bsMHAfONEdJ51mKHeepEr5PWsyl8WwBY7y/NRzaspFoA35mRzLHoUvOgJ3wN5ayo8p55ymsBOcz0G3uOhyi02CY3vJKCt49Yk4Ry580t04vjm+ZZidyAdXWLIfwQfrxH3IHl237kztdyAPTlPPHCS/IT7cGLYrFmfBEwb3RYMkC4RUZ4ljl458kFLntogzjOxBe/vUlYk4Un+Trz9zzeEa+fdGBkMGbSOzz4cc0oYnIa7dk0i3WjB04BFzIxKlOvahUpMKduVLxAj64JGADYDPnC7k9AGNgqkZ7UE1jJ/XIDUEUMk3p4uLpFPSqhAr2tWH5qqWROwcqtG/wx6FyjBJ15O0ruYJLKd0XSwxwwAbclGoybeXwfQ/2c6rYmkx72mAeO1A8fesaXY9KnBLPImKHdIfOWckwdlgC2YmTX/eQwFfGkrN1jTxagkI7bMP3mucXSoB+AgQlXlA7pjPndzIVHwIfY0oWNNLvWRVncmdOCyycPxuSb6q8eLUKDfPnskybynGqteaiJZPco6+QtwvcRAEvL+oCYKBLHZTNvWeILIjNSL/GFE+KrWsnGKV0YiR7Mw83MMTCRpvVWqkLlMjqrxUf5K6zn3IvsyTd7XgAAWKJFzgNAfEuH7214nzYgpL+kAs1l9qmphKwuEMdg+sETwPMAiJdcUl9QZ/AzmiFkUrTon047OfNHwACQOqwbMknD+vJle0gcLwGe0W+S50s8YLRxopiLJRt409BSMpcuhUHTt2Glhr4wxIC4DCOIAI9rXrdj1iB2H0rHfGdHzBhN7mqZygd40/Gd8AywJcLmKNQVzA8A8SzyEDPnJnSAl7kDwBJw8vsFWL7s7GokjzYUXG7R/wlJ3IPnWECQr+DBG+PKhIgIbX30vDUJRzv9Jgtvhx3ci3UX7XRqd7JD9JtEzPWFMJNg1rdHK6iIBABut5kMHy7JeF/Dd9gr7imJzUjCiczYXt4GXGwbtjuuqCCeWEIM6evS7VCaYUZG2Q3gWwDu1iBtoCNmQmXjC50yEcY19WLeRN8dOB3KFkQaG7GIBC4XgJrRBAA4JVAfClqWhb+v/TivHUUcm3Ibknij9BFzNntKqB2UKWD1COHsde2iZXh1O5Cop2zW0lOX8EYsQt0Mc7/1TGn4ArD9jpSAcJrnQugo48OOpPTXcPRm69u5KX0DFnS2XAbC7FmwLMbBlW0f/RtoKCGz93suN2zXV+Us8WFmDCUmeriA3rxebI9PUGopextGRPYKGQv9oDt0a9gDfBHgAyAsmqbf/pq5/m57MdfL0vHNhMaUuBke54dy6qmr0bJfJxm+4z3AF4BT6JQq8IilAp+n71KFjfwke4JvpttyZdpX4YBcATAjarzk6Ddubcd6A/B8DxHOqqnTQRW7tHZT3GrpGWG4lV2BHpXrniLMBuI6EHTlGeNmyp/ZpDMNdFCQSQc93ile6qpfG//+t9d1LVz+6r//TPFz87oHs1r4XLbGJQPcBwgDwMYDrd7IN771TQSAL7/+mY2UUV6p/cgZvm6Pwz2M4606n9lZz+ZS76mCo18RzpmOi5RuL6ex0Ff49hXCiGy+D6syfdjrCbCGs7c+wLfvEEZEfLSB+bIvhj7NjOjJAb4udvC+kLSEnPav/ukv9bUm//C0f4bMrmRnO+gPgPsXYfY89auvv0YMb6AJPn365npfjpJdx5PjAPoE4IFAeBAKu4qHLSfYfHI0MHT+0gzxdd7mkIb7B9+DM0fIfHI2OI6GPev3Ft87vheu8HXITnka3r3wvBb4nvF9WHOGyyeHA+R8TGb8Hr3P39lmf8vtcO7wdbpGGb04+n/nyybjx3VP02reytexXyg4t+Ae6SsIAGDfM5qdcAKsY9I6HL54mY83fJ2zzsxHf+4OiAB7RRvaUNv/w764jpPIUm8+ZtjX0kUpCEd5G4TNNw0bEn/fyUfbp9lYOgOF7yfHvCbDpRseZM1RBfcPbgCaZA63IfHAgv8NsJFd6GA7uqD7Ox7F577mz5EGJr2T0AcRA5vlFBGxjoi4Ckw+B6s+34C/5yUd+hxkqMyt5zv/jinczPqmrCZXJvlAGJoxwGtMdG3SkRRg8XUxTNU4/cZS1AKMZi8Q9TIhruUlQSDFAGzEb473X9xiCBgAYBvv4S2MbwBIYv6z60jchAEAd+I0VtW73OTO/eF7PjDKm8zAq45XZJfl0EkvY4iIMI2boohlPcAAsIWIMLIMiLCNeDsNfokXc6xucPQybjMdCN55TDLgZHrexQnYED11lJWI8wADIMICSnQZ7k8DY2Xg+8lLqwEkuVld6zwQojvdEADgPtvy78MX8B9Fz/0DAAC0AQDmIU1Rl8ZHNBCgC/Aj0Vj3EdG55ib42WCJzxk1EJd9wC2b5vevWo4OMMoHUEl1EovhZRJs7jQAxMX0yl9ABNjCvJI1ls5gwikRP3LDnsAHGLTikU3zXJXj1Ezq/1iwRmRjTicq0wsJwOfR80+RM+YickPnMlzf+JOu4E4UqTpwCD85R/iQO5M+LooAPgDRVo3xlVvhHQFxBuPrGOCn4/JiywZLvOLHXfFNxGJVCAtw2GtLIDGxZ63wiZpSgemuNN8HvgAX2QsyS/QvPl+GhJZHhSIxAGKYA5q7A8L/MPmhrGSklcFm0xOlO5Jz3V8yAE+JEphOA/gO5D97L+Qbj3+sZ0TMISz4WrjPnq6USb4Djy/AU3YKYz1BOPyrDYwtoRdRNif8WuxgCW4v/ok420nPXtoAAwSAyZ8AvK70YhiBZmUGRpOVVWvxZuGgVzobDEH9CQAs94A3rvcA3zIAhqB1m1nN4LyfWY6vZXjMGNkugvKZhj/aGf+ZEz49sB7RAfSAfEuiYAAI4KdZIv5QEUwHmdm2SrMtlLfM+Smd75kPd/TnvafgAAeFfMs+EqNIoWRSlpezisRr2C31nNOwGHZ21i18r8F5gvSepnrmrEOOzzRl+/nhXQMiwKpJK9X8lEfe7VYkeJ2nzByyKgCI2GHMhH696zMq6kj1ZK2YBOji+46tRfZ6y7BsGRAw95Z4Nv2kQHYQAY5DcCv4SO/zVTD/9y5PtgVTPKfii7gKgIgj4WEJccEVwIJm9kKLPywB4FwSTQGIQN33BfB2PsCRQTTzB2qgyWL0fC1e6ylrIgZkfOVBRsLhkLtRpS0DHp0/K+EHyXxQy1wtCgCE+x2X41cjAeUgdlEPMzxrYoZWeLEO0jt8H2XO8gCIDYA2sycDwAMJYNGLvfRhzv3CBdBCfBGv8j7jmoPwyMajgWZPBRA6vQO8yjbh2BJ1H11qC1CNMTeD92MlLhHOt0uSWl4QALCRCGyIiONPCPAae9NiEzYQuxsivFYlAO/JAd5AxOhq9TAYCui3HUXlHj9cXpoxFLmqkEIz92Mcw0ULnWNPY3K7ijw1csfs9ONWyAyOAM4j1g8wLlRqrKcwM+2B0usjP6sV9H1vd1+WY2ECfVqA7/VRBPA540UZAtwBwMtQHMoDPA6I0wCdxGSRilJRrcuZzD59kD+PKdC9FXKrFnzMgsgHQISFehliAwHgIHaOvIoA7gIAKyDng16uInVwJImfAyDOAGQiYxKAqwaKjU3qZvSxt2KDc8/RMQI0ajHLjjfhcZF/JMQ0HZ5jAZo4BYCvAIiHSdX1rDKLfhEmDOGlr8AR/Ty7wdDdcgL1DcC+YA/ew9QZehx3YsFaqJ2qjb0WMCkM4dWtgrFmMdJePDBH5byQ1WUii0PTBeWaZl2pD+G1gfjCfKW3+diGMKKMO/WwACMDcAFvTxjCawuxPV2NALQARtKNuMMg2mG25EUAwFWY3rHsaGYILxXieeEPlcJGoUz8YXwOakNxS8UWDOE1gViSvG7VBcAewp/Eo50awquA+E3yU7Pf8JXZ/Q6H8KrKtWJ5Sr7+U1WOFa/o3RBFZVlGgdNHcZnLYVmQDa4iOy8NSx5FpQq7d+VJPq7nIW+ml1Y+DD7Hycsv8/IBTcllrmGxIWMQWug9lulCYx0WUTnVr9t5Gdi+6YfZHqJlT8Y6P8SFO3/YPm9pOt8cEq8LjPV3C07uuMb2TH8j8dIQXSdlCjG20uuKk3T7tDufmtqdeVjoZQaNiMUyHo0uBl8h8hf99m8ZnDBGBABYezJ6Zv673/3W91T3jL7+v19/+cs/Nmpz/IvBWrdBKh3s9a73QN8uhsWqTOoUSv7KMQ633XLKWugDXymxy1B1tjFc+9JKI5SLStAwbIY9NYdr3pvzEyIe+OogNlBODde6d6UegdB1SmIbsTljbbjC/UTLiG8FcV5IYxwrw3Xtt8LaHtqTRo+ywYUX72lN3uOBvZaz/7z84p9//fVv4OvoDP0N+PTZZ7/1ezmheOltSCSDVRYpGsr3HXf//wFDEeeUBJhOpAAAAABJRU5ErkJggg==" alt="ختم مكتبة دير القديس دومينيك — عنكاوة، أربيل" width="160" height="160" decoding="async">
+                </div>
+                <div class="header-right">
+                    <div class="header-seal-number">108</div>
+                    <div class="header-location-under">أربيل — عنكاوا، العراق</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-3 max-w-6xl">
+
+        <!-- VIEW SWITCHER -->
+        <div class="view-switcher">
+            <button onclick="switchView('user-view')" id="btn-user-view" class="header-btn active-btn modern-btn">✦ تصفح الفهرس</button>
+            <button onclick="tryAccessAdmin()" id="btn-admin-view" class="header-btn modern-btn">🔑 الإدارة</button>
+        </div>
+
+        <!-- USER VIEW -->
+        <section id="user-view" class="space-y-3 max-w-4xl mx-auto fade-in">
+            <div class="user-search-area">
+                <h2 class="main-title">البحث في أرشيف المكتبة</h2>
+                <p class="subtitle-text">ابحث في التسلسل، العنوان، المؤلف، الناشر، السنة، المترجم، أو رقم الرف</p>
+                <div id="live-clock" class="live-clock"></div>
+                <div class="search-wrapper max-w-md mx-auto mt-3">
+                    <input type="text" id="user-search" oninput="searchBooks()" placeholder="ابحث عن كتاب، مؤلف، سنة..." class="modern-input w-full">
+                </div>
+            </div>
+            <div id="user-books-list" class="space-y-2"></div>
+        </section>
+
+        <!-- ADMIN VIEW -->
+        <section id="admin-view" class="space-y-2 fade-in hidden-section">
+
+            <!-- Toolbar -->
+            <div class="admin-toolbar-bar">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 rounded-full flex items-center justify-center" style="background: var(--gold-tint); color: var(--gold);">
+                        <span class="text-base">✒</span>
+                    </div>
+                    <p class="text-base font-bold font-display" style="color: var(--ink);">لوحة الإدارة — سجلّ الدير</p>
+                </div>
+                <div class="admin-toolbar">
+                    <button onclick="logoutAdmin()" class="logout-btn modern-btn">خروج</button>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-4 gap-1 stats-compact">
+                <div class="stat-card">
+                    <span class="stat-label">الكل</span>
+                    <div class="stat-number" id="stat-total-books">0</div>
+                    <div class="stat-sub">كتاب</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">مستعارة</span>
+                    <div class="stat-number" id="stat-borrowed-books">0</div>
+                    <div class="stat-sub">كتاب</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label late-label">متأخرة</span>
+                    <div class="stat-number" id="stat-late-books">0</div>
+                    <div class="stat-sub">كتاب</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">أعضاء</span>
+                    <div class="stat-number" id="stat-total-members">0</div>
+                    <div class="stat-sub">عضو</div>
+                </div>
+            </div>
+
+            <!-- Borrowing Report -->
+            <div class="modern-card overflow-hidden">
+                <div class="dark-section-header flex flex-wrap justify-between items-center gap-1">
+                    <h3 class="report-title text-base">
+                        📜 حركة الاستعارات
+                        <span class="loan-period-badge">7 أيام</span>
+                    </h3>
+                    <div class="flex flex-wrap items-center gap-1">
+                        <div class="report-search-area">
+                            <input type="text" id="report-search-input" placeholder="🔍 بحث..." class="text-sm" onkeydown="if(event.key==='Enter') renderReportList(currentReportFilter)">
+                            <button onclick="renderReportList(currentReportFilter)" class="search-btn">بحث</button>
+                            <button onclick="document.getElementById('report-search-input').value=''; renderReportList(currentReportFilter);" class="clear-search" title="مسح">✕</button>
+                        </div>
+                        <div class="flex gap-0.5">
+                            <button onclick="renderReportList('all')" id="btn-report-all" class="px-2 py-0.5 rounded text-sm font-bold" style="background:var(--gold-light); color:var(--ink);">الكل</button>
+                            <button onclick="renderReportList('late')" id="btn-report-late" class="px-2 py-0.5 rounded text-sm font-medium" style="background:rgba(244,234,210,.12); color:rgba(244,234,210,.7);">المتأخرة</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="report-list-wrapper" class="report-list-container"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-2">
+
+                <div class="md:col-span-7 space-y-2">
+                    <!-- Excel Import -->
+                    <div class="excel-import-area">
+                        <span class="excel-label"><span class="icon">📎</span> استيراد Excel</span>
+                        <input type="file" id="excel-file-input" accept=".xlsx, .xls" class="hidden" onchange="updateFileLabel()">
+                        <button onclick="document.getElementById('excel-file-input').click()" class="excel-btn">اختر ملف</button>
+                        <span id="file-chosen-text" class="file-name">لا ملف</span>
+                        <button onclick="importExcelData()" id="import-excel-btn" class="excel-action">استيراد</button>
+                        <button onclick="exportToExcel()" class="excel-action export">📤 تصدير</button>
+                    </div>
+
+                    <!-- Add / Edit Book -->
+                    <div id="book-form-card" class="modern-card p-2 form-compact">
+                        <h3 class="form-title-badge"><span id="form-title">📝 إضافة كتاب جديد</span></h3>
+                        <form id="book-form" onsubmit="handleBookSubmit(event)" class="space-y-1">
+                            <input type="hidden" id="book-id">
+                            <div class="grid grid-cols-2 gap-0.5">
+                                <div>
+                                    <label class="modern-label">التسلسل</label>
+                                    <input type="text" id="book-serial" class="modern-input editable">
+                                    <span id="serial-preview" class="serial-preview">يمكنك تعديل التسلسل يدوياً</span>
+                                </div>
+                                <div>
+                                    <label class="modern-label">القسم</label>
+                                    <input type="text" id="book-category" required class="modern-input">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="modern-label">العنوان</label>
+                                <input type="text" id="book-title" required class="modern-input">
+                            </div>
+                            <div class="grid grid-cols-2 gap-0.5">
+                                <div>
+                                    <label class="modern-label">المؤلف</label>
+                                    <input type="text" id="book-author" required class="modern-input">
+                                </div>
+                                <div>
+                                    <label class="modern-label">الناشر</label>
+                                    <input type="text" id="book-publisher" class="modern-input">
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-3 gap-0.5">
+                                <div>
+                                    <label class="modern-label">السنة</label>
+                                    <input type="text" id="book-year" class="modern-input">
+                                </div>
+                                <div>
+                                    <label class="modern-label">المترجم</label>
+                                    <input type="text" id="book-translation" class="modern-input">
+                                </div>
+                                <div>
+                                    <label class="modern-label">الرف</label>
+                                    <input type="text" id="book-shelf" class="modern-input">
+                                </div>
+                            </div>
+                            <div class="flex gap-0.5 pt-0.5">
+                                <button type="submit" class="flex-1 dark-action-btn dark-action-btn-sm modern-btn text-xs" id="submit-btn">حفظ</button>
+                                <button type="button" onclick="resetForm()" class="px-2 rounded-lg text-xs modern-btn" style="background: rgba(34,29,22,.06); color: var(--ink-soft);">إلغاء</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Admin Book List -->
+                    <div class="modern-card dark-header-card overflow-hidden">
+                        <div class="dark-books-header" style="display:flex; justify-content:space-between; align-items:center;">
+                            <h3 class="text-sm" style="width:auto;">📚 قائمة الكتب</h3>
+                            <button onclick="printBooksList()" class="print-books-btn" title="طباعة قائمة الكتب">🖨️ طباعة</button>
+                        </div>
+                        <div class="card-content">
+                            <div class="flex flex-wrap items-center justify-between gap-0.5 mb-0.5">
+                                <p class="text-[8px]" style="color:var(--ink-faint);">المتاحة: <span id="admin-book-count" class="font-medium" style="color:var(--ink-soft);">0</span></p>
+                                <div class="book-search-area">
+                                    <input type="text" id="admin-book-search" oninput="filterAdminBooks()" placeholder="🔍 بحث في العنوان، المؤلف، الرف..." class="text-xs" style="min-width:160px;">
+                                    <button onclick="document.getElementById('admin-book-search').value=''; filterAdminBooks();" class="clear-search" title="مسح">✕</button>
+                                    <button onclick="clearAllBooks()" class="action-btn clear-all text-[7px]">🗑️ مسح</button>
+                                </div>
+                            </div>
+                            <div class="books-scroll-container">
+                                <div id="admin-books-list"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:col-span-5 space-y-2">
+                    <!-- Add Member -->
+                    <div class="modern-card dark-header-card overflow-hidden">
+                        <div class="dark-member-header">
+                            <h3 class="text-lg">🕊 إضافة عضو جديد</h3>
+                        </div>
+                        <div class="card-content">
+                            <form id="member-form" onsubmit="handleMemberSubmit(event)" class="space-y-1.5 member-form-compact">
+                                <div>
+                                    <label class="modern-label">الاسم الكامل</label>
+                                    <input type="text" id="member-name" placeholder="مثال: يوسف حنا" required class="modern-input">
+                                </div>
+                                <div>
+                                    <label class="modern-label">رقم الهاتف</label>
+                                    <input type="tel" id="member-phone" placeholder="0750XXXXXXX" class="modern-input">
+                                </div>
+                                <div>
+                                    <label class="modern-label">البريد الإلكتروني</label>
+                                    <input type="email" id="member-email" placeholder="example@domain.com" class="modern-input">
+                                </div>
+                                <button type="submit" class="w-full dark-action-btn dark-action-btn-sm modern-btn">إضافة العضوية</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Members List -->
+                    <div class="modern-card dark-header-card overflow-hidden">
+                        <div class="dark-members-header">
+                            <h3 class="text-lg">👥 قائمة الأعضاء</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="flex flex-wrap items-center justify-between gap-0.5 mb-1">
+                                <p class="text-sm" style="color:var(--ink-faint);">الإجمالي: <span id="member-count-badge" class="font-medium" style="color:var(--ink-soft);">0</span></p>
+                                <div class="member-search-area">
+                                    <input type="text" id="member-search-input" placeholder="🔍 بحث..." class="text-sm" oninput="renderAdminMembersTable()">
+                                    <button onclick="document.getElementById('member-search-input').value=''; renderAdminMembersTable();" class="clear-search" title="مسح">✕</button>
+                                </div>
+                            </div>
+                            <div class="members-scroll-container">
+                                <table class="w-full text-right text-sm">
+                                    <thead>
+                                        <tr class="table-header">
+                                            <th class="px-2 py-1.5 text-sm">الاسم</th>
+                                            <th class="px-2 py-1.5 text-sm">الهاتف</th>
+                                            <th class="px-2 py-1.5 text-sm">البريد</th>
+                                            <th class="px-2 py-1.5 text-center text-sm">إجراء</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="admin-members-table"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Editable Data Grid (Excel-style) -->
+            <div class="modern-card dark-header-card overflow-hidden">
+                <div class="dark-books-header" style="display:flex; justify-content:space-between; align-items:center; padding:0.5rem 0.9rem !important;">
+                    <h3 class="text-sm" style="width:auto;">📊 جدول البيانات — تحرير مباشر</h3>
+                    <button onclick="addNewBookRow()" class="dark-icon-btn dark-action-btn-sm modern-btn" style="background: rgba(216,185,120,.15); border-color: rgba(216,185,120,.3);">+ صف جديد</button>
+                </div>
+                <div class="card-content" style="padding:.5rem;">
+                    <p class="text-xs mb-1" style="color:var(--ink-faint);">اضغط أي خانة وعدّلها مباشرة — يُحفظ التغيير فور الخروج من الخانة (مثل Excel). الحقول الرمادية (الحالة) للعرض فقط.</p>
+                    <div class="data-grid-scroll">
+                        <table class="data-grid-table">
+                            <thead>
+                                <tr>
+                                    <th style="min-width:70px;">التسلسل</th>
+                                    <th style="min-width:90px;">القسم</th>
+                                    <th style="min-width:220px;">العنوان</th>
+                                    <th style="min-width:140px;">المؤلف</th>
+                                    <th style="min-width:140px;">الناشر</th>
+                                    <th style="min-width:70px;">السنة</th>
+                                    <th style="min-width:120px;">المترجم</th>
+                                    <th style="min-width:80px;">الرف</th>
+                                    <th style="min-width:80px;">الحالة</th>
+                                    <th style="min-width:50px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="books-data-grid"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Auth Modal -->
+    <div id="admin-auth-modal" class="hidden fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50 p-3">
+        <div class="modal-content max-w-sm w-full p-5">
+            <div class="text-center">
+                <span class="text-3xl inline-block" style="color:var(--rubric);">🔐</span>
+                <h3 class="font-semibold text-xl mt-2">التحقق الأمني</h3>
+                <p class="text-sm" style="color:var(--ink-faint);">أدخل بيانات دخول الإدارة</p>
+            </div>
+            <form id="admin-login-form" class="mt-4">
+                <input type="email" id="admin-email-input" placeholder="البريد الإلكتروني" required autocomplete="username" class="w-full text-center py-2 modern-input mb-2">
+                <input type="password" id="admin-password-input" placeholder="••••••••" required autocomplete="current-password" class="w-full text-center py-2 modern-input mb-3">
+                <div class="flex gap-2">
+                    <button type="button" onclick="closeModal('admin-auth-modal')" class="w-1/3 py-2 rounded-lg text-base modern-btn" style="background: rgba(34,29,22,.06); color: var(--ink-soft);">إلغاء</button>
+                    <button type="submit" class="flex-1 dark-action-btn dark-action-btn-sm modern-btn">دخول</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Borrow Modal -->
+    <div id="borrow-modal" class="hidden fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50 p-3">
+        <div class="modal-content max-w-md w-full p-5">
+            <div class="flex justify-between items-center mb-3">
+                <h3 class="font-semibold text-xl">استعارة كتاب</h3>
+                <p id="modal-book-title" class="text-sm px-3 py-1 rounded-full" style="background: var(--gold-tint); color: var(--ink-soft);"></p>
+            </div>
+            <div class="flex rounded-lg p-1 mb-3" style="background: rgba(34,29,22,.05);">
+                <button type="button" onclick="toggleBorrowTab('registered')" id="tab-btn-registered" class="w-1/3 py-1.5 rounded-md text-sm font-medium bg-white shadow-sm">عضو مسجل</button>
+                <button type="button" onclick="toggleBorrowTab('visitor')" id="tab-btn-visitor" class="w-1/3 py-1.5 rounded-md text-sm text-slate-500">زائر</button>
+                <button type="button" onclick="toggleBorrowTab('unregistered')" id="tab-btn-unregistered" class="w-1/3 py-1.5 rounded-md text-sm text-slate-500">غير مسجل</button>
+            </div>
+            <form id="borrow-form" onsubmit="handleBorrowSubmit(event)" class="space-y-3">
+                <input type="hidden" id="borrow-book-id">
+                <input type="hidden" id="borrow-type" value="registered">
+                <div id="tab-registered-container">
+                    <select id="borrower-select" class="modern-input">
+                        <option value="" disabled selected>اختر العضو</option>
+                    </select>
+                </div>
+                <div id="tab-visitor-container" class="hidden space-y-3">
+                    <input type="text" id="visitor-name" placeholder="الاسم الكامل" class="modern-input">
+                    <input type="text" id="visitor-phone" placeholder="رقم الهاتف (اختياري)" class="modern-input">
+                    <input type="text" id="visitor-id" placeholder="رقم الهوية (اختياري)" class="modern-input">
+                </div>
+                <div id="tab-unregistered-container" class="hidden space-y-3">
+                    <input type="text" id="borrower-direct-name" placeholder="الاسم الكامل" class="modern-input">
+                    <input type="text" id="borrower-direct-phone" placeholder="رقم الهاتف (اختياري)" class="modern-input">
+                </div>
+                <div class="flex gap-2 pt-1">
+                    <button type="button" onclick="closeModal('borrow-modal')" class="w-1/3 py-2 rounded-lg text-base modern-btn" style="background: rgba(34,29,22,.06); color: var(--ink-soft);">إلغاء</button>
+                    <button type="submit" class="flex-1 dark-action-btn dark-action-btn-sm modern-btn">تأكيد الإعارة</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Member Edit Modal -->
+    <div id="member-edit-modal" class="hidden fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50 p-3">
+        <div class="modal-content max-w-md w-full p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-semibold text-xl">✏️ تعديل عضو</h3>
+                <button onclick="closeModal('member-edit-modal')" class="text-xl modern-btn" style="color: var(--ink-faint);">✕</button>
+            </div>
+            <form id="member-edit-form" onsubmit="handleMemberEditSubmit(event)">
+                <input type="hidden" id="edit-member-id">
+                <div class="mb-2.5">
+                    <label for="edit-member-name" class="modern-label">الاسم الكامل</label>
+                    <input type="text" id="edit-member-name" required class="modern-input">
+                </div>
+                <div class="mb-2.5">
+                    <label for="edit-member-phone" class="modern-label">رقم الهاتف</label>
+                    <input type="tel" id="edit-member-phone" placeholder="0750XXXXXXX" class="modern-input">
+                </div>
+                <div class="mb-2.5">
+                    <label for="edit-member-email" class="modern-label">البريد الإلكتروني</label>
+                    <input type="email" id="edit-member-email" placeholder="example@domain.com" class="modern-input">
+                </div>
+                <div class="flex gap-2 pt-3">
+                    <button type="button" onclick="closeModal('member-edit-modal')" class="w-1/3 py-2.5 rounded-lg text-base font-medium modern-btn" style="background: rgba(34,29,22,.06); color: var(--ink-soft);">إلغاء</button>
+                    <button type="submit" class="flex-1 dark-action-btn dark-action-btn-sm modern-btn">تحديث البيانات</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const SUPABASE_URL = "https://gedrqynmibesepbueugu.supabase.co";
+        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlZHJxeW5taWJlc2VwYnVldWd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU2NTU4NTUsImV4cCI6MjEwMTIzMTg1NX0.D_M4IGQoujqPzfeGn5tgrAKN2R-KyGMO8vz3gcnK8TM";
+        let sb = null;
+        const FINE_PER_DAY = 1000;
+        const LOAN_PERIOD_DAYS = 7;
+        let isAdminAuthenticated = false;
+        let currentReportFilter = "all";
+        let adminSearchQuery = "";
+        let memberSearchQuery = "";
+        let showAllBooks = false;
+
+        // تعقيم النصوص قبل إدراجها في HTML (يمنع ثغرة XSS ويصلح كسر العرض عند وجود " أو < في البيانات)
+        function esc(v) {
+            return String(v == null ? '' : v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+        }
+        const sameId = (a, b) => String(a) === String(b);
+
+        let books = [];
+        let members = [];
+        let lastExcelSerial = 0;
+
+        function rowToBook(r) {
+            return {
+                id: r.id, serial: r.serial, title: r.title, author: r.author, category: r.category,
+                publisher: r.publisher, year: r.year, translation: r.translation, shelf: r.shelf,
+                borrowedBy: r.borrowed_by, borrowDate: r.borrow_date, borrowerType: r.borrower_type
+            };
+        }
+        function rowToMember(r) {
+            return { id: r.id, name: r.name, phone: r.phone, email: r.email };
+        }
+
+        async function fetchBooks() {
+            let allRows = [];
+            const PAGE_SIZE = 1000;
+            let from = 0;
+            while (true) {
+                const { data, error } = await sb.from('books').select('*')
+                    .order('created_at', { ascending: true })
+                    .range(from, from + PAGE_SIZE - 1);
+                if (error) { console.error(error); alert('تعذّر تحميل الكتب: ' + error.message); return; }
+                allRows = allRows.concat(data || []);
+                if (!data || data.length < PAGE_SIZE) break;
+                from += PAGE_SIZE;
+            }
+            books = allRows.map(rowToBook);
+            calculateLastSerial();
+        }
+
+        async function fetchMembers() {
+            let allRows = [];
+            const PAGE_SIZE = 1000;
+            let from = 0;
+            while (true) {
+                const { data, error } = await sb.from('members').select('*')
+                    .order('created_at', { ascending: true })
+                    .range(from, from + PAGE_SIZE - 1);
+                if (error) { members = []; return; }
+                allRows = allRows.concat(data || []);
+                if (!data || data.length < PAGE_SIZE) break;
+                from += PAGE_SIZE;
+            }
+            members = allRows.map(rowToMember);
+        }
+
+        async function refreshAndRender() {
+            await fetchBooks();
+            if (isAdminAuthenticated) await fetchMembers();
+            renderAll();
+        }
+
+        async function initData() {
+            if (typeof supabase === 'undefined') {
+                document.getElementById('user-books-list').innerHTML =
+                    '<div class="text-center py-8"><p class="text-base" style="color:var(--rubric);">تعذّر تحميل مكتبة قاعدة البيانات. تحقّق من اتصال الإنترنت ثم أعد تحميل الصفحة.</p></div>';
+                return;
+            }
+            sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
+                auth: { persistSession: false, autoRefreshToken: false }
+            });
+            await fetchBooks();
+            renderAll();
+        }
+
+        // مقارنة طبيعية تراعي الأرقام (Serial 2 قبل Serial 10 مثلاً بدل الترتيب الأبجدي البحت)
+        function naturalCompare(a, b) {
+            const ax = (a || '').toString();
+            const bx = (b || '').toString();
+            return ax.localeCompare(bx, undefined, { numeric: true, sensitivity: 'base' });
+        }
+
+        function calculateLastSerial() {
+            let maxNum = 0;
+            for (let book of books) {
+                if (book.serial) {
+                    const numMatch = String(book.serial).match(/\d+/);
+                    if (numMatch) {
+                        const num = parseInt(numMatch[0]);
+                        if (num > maxNum) maxNum = num;
+                    }
+                }
+            }
+            lastExcelSerial = maxNum;
+            return maxNum;
+        }
+
+        function peekNextSerial() {
+            return String(Math.max(lastExcelSerial || 0, calculateLastSerial()) + 1);
+        }
+
+        function generateNextSerial() {
+            let base = lastExcelSerial || 0;
+            const maxFromBooks = calculateLastSerial();
+            if (maxFromBooks > base) base = maxFromBooks;
+            const nextNum = base + 1;
+            lastExcelSerial = nextNum;
+            return String(nextNum);
+        }
+
+        function updateSerialField() {
+            const serialField = document.getElementById('book-serial');
+            const previewSpan = document.getElementById('serial-preview');
+            const bookId = document.getElementById('book-id').value;
+            if (serialField && !bookId) {
+                const nextSerial = peekNextSerial();
+                // لا نستبدل القيمة إذا كان المستخدم يكتب فيها حالياً
+                if (document.activeElement !== serialField) serialField.value = nextSerial;
+                serialField.readOnly = false;
+                if (previewSpan) {
+                    previewSpan.textContent = `يمكنك تعديل التسلسل يدوياً (التسلسل التالي: ${nextSerial})`;
+                }
+            } else if (serialField && bookId) {
+                serialField.readOnly = false;
+                if (previewSpan) {
+                    previewSpan.textContent = '✏️ يمكنك تعديل التسلسل الحالي';
+                }
+            }
+        }
+
+        function renderAll() {
+            renderStats();
+            renderAdminBooksList();
+            renderBooksGrid();
+            renderAdminMembersTable();
+            renderReportList(currentReportFilter);
+            populateBorrowDropdown();
+            updateSerialField();
+            searchBooks();
+        }
+
+        function updateLiveClock() {
+            const el = document.getElementById('live-clock');
+            if (!el) return;
+            const now = new Date();
+            const dateStr = now.toLocaleDateString('ar-EG', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+            const timeStr = now.toLocaleTimeString('ar-EG', { hour: '2-digit', minute: '2-digit' });
+            el.innerHTML = `🗓️ ${dateStr} — 🕐 ${timeStr}`;
+        }
+
+        function printBooksList() {
+            if (books.length === 0) { alert("لا توجد كتب للطباعة"); return; }
+            const sorted = [...books].sort((a, b) => naturalCompare(a.serial, b.serial) || naturalCompare(a.shelf, b.shelf));
+            const rows = sorted.map(b => `
+                <tr>
+                    <td>${esc(b.serial) || '—'}</td>
+                    <td>${esc(b.title)}</td>
+                    <td>${esc(b.author)}</td>
+                    <td>${esc(b.category)}</td>
+                    <td>${esc(b.publisher) || '—'}</td>
+                    <td>${esc(b.year) || '—'}</td>
+                    <td>${esc(b.shelf) || '—'}</td>
+                    <td>${b.borrowedBy ? 'مستعار' : 'متاح'}</td>
+                </tr>
+            `).join('');
+            const printWin = window.open('', '_blank');
+            if (!printWin) { alert('المتصفح منع النافذة المنبثقة. اسمح بالنوافذ المنبثقة ثم أعد المحاولة.'); return; }
+            printWin.document.write(`
+                <!DOCTYPE html>
+                <html lang="ar" dir="rtl">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>قائمة كتب مكتبة الآباء الدومنيكان</title>
+                    <style>
+                        body{ font-family: Tahoma, Arial, sans-serif; padding:20px; color:#222; }
+                        h1{ font-size:18px; margin-bottom:2px; }
+                        p{ font-size:12px; color:#555; margin-top:0; margin-bottom:14px; }
+                        table{ width:100%; border-collapse:collapse; font-size:11px; }
+                        th, td{ border:1px solid #999; padding:5px 7px; text-align:right; }
+                        th{ background:#e8e8e8; font-weight:700; }
+                        tr:nth-child(even){ background:#f7f7f7; }
+                    </style>
+                </head>
+                <body>
+                    <h1>مكتبة الآباء الدومنيكان — قائمة الكتب</h1>
+                    <p>تاريخ الطباعة: ${new Date().toLocaleDateString('ar-EG', { year: 'numeric', month: 'long', day: 'numeric' })} — عدد الكتب: ${sorted.length}</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>التسلسل</th><th>العنوان</th><th>المؤلف</th><th>القسم</th>
+                                <th>الناشر</th><th>السنة</th><th>الرف</th><th>الحالة</th>
+                            </tr>
+                        </thead>
+                        <tbody>${rows}</tbody>
+                    </table>
+                </body>
+                </html>
+            `);
+            printWin.document.close();
+            printWin.focus();
+            setTimeout(() => printWin.print(), 300);
+        }
+
+        function exportToExcel() {
+            if (books.length === 0) { alert("لا توجد كتب لتصديرها"); return; }
+            const exportData = books.map(book => ({
+                'التسلسل': book.serial || '',
+                'القسم': book.category || '',
+                'عنوان الكتاب': book.title || '',
+                'المؤلف': book.author || '',
+                'الناشر': book.publisher || '',
+                'السنة': book.year || '',
+                'المترجم': book.translation || '',
+                'رقم الرف': book.shelf || '',
+                'المستعير': book.borrowedBy || '',
+                'تاريخ الإعارة': book.borrowDate || '',
+                'نوع المستعير': book.borrowerType || ''
+            }));
+            const wb = XLSX.utils.book_new();
+            const ws = XLSX.utils.json_to_sheet(exportData);
+            ws['!cols'] = [
+                { wch: 12 }, { wch: 12 }, { wch: 35 }, { wch: 20 }, { wch: 20 },
+                { wch: 10 }, { wch: 18 }, { wch: 12 }, { wch: 20 }, { wch: 15 }, { wch: 14 }
+            ];
+            XLSX.utils.book_append_sheet(wb, ws, 'الكتب');
+            const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+            const blob = new Blob([wbout], { type: 'application/octet-stream' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            const date = new Date().toISOString().slice(0, 10);
+            link.download = `مكتبة_الآباء_الدومنيكان_${date}.xlsx`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(link.href);
+        }
+
+        function normalizeSearch(str) {
+            return (str || '').toString().toLowerCase().replace(/[\s\-_.]+/g, '');
+        }
+        function textMatchesQuery(text, q, qNorm) {
+            const t = (text || '').toString().toLowerCase();
+            if (t.includes(q)) return true;
+            return normalizeSearch(t).includes(qNorm);
+        }
+        function formatShelfDisplay(shelf) {
+            const s = (shelf || '').toString().trim();
+            if (!s) return '—';
+            return esc(s.replace(/[\s\-_.]+/g, ''));
+        }
+
+        function searchBooks() {
+            const q = document.getElementById('user-search')?.value.trim().toLowerCase();
+            const container = document.getElementById('user-books-list');
+            if (!container) return;
+            if (!q) {
+                container.innerHTML =
+                    `<div class="text-center py-8"><span class="text-3xl inline-block" style="color:var(--gold);">❦</span><p class="text-base mt-2" style="color:var(--ink-faint);">اكتب كلمة للبحث</p></div>`;
+                return;
+            }
+            const qNorm = normalizeSearch(q);
+            const filtered = books.filter(b =>
+                textMatchesQuery(
+                    [b.serial, b.category, b.title, b.author, b.publisher, b.year, b.translation, b.shelf].join(' '),
+                    q, qNorm
+                )
+            );
+            if (filtered.length === 0) {
+                container.innerHTML =
+                    `<div class="text-center py-8"><span class="text-3xl">🕯️</span><p class="text-base mt-2" style="color:var(--ink-faint);">لا نتائج لـ "${esc(q)}"</p></div>`;
+                return;
+            }
+            container.innerHTML = filtered.map(book => {
+                const statusLabel = book.borrowedBy ? 'مستعار' : 'متاح';
+                const statusClass = book.borrowedBy ? 'status-pill status-borrowed' : 'status-pill status-available';
+                const btnDisabled = book.borrowedBy ? 'disabled' : '';
+
+                let typeBadge = '';
+                if (book.borrowedBy) {
+                    if (book.borrowerType === 'registered') {
+                        typeBadge = '<span class="text-sm type-badge-registered px-2 py-0.5 rounded-full">عضو</span>';
+                    } else if (book.borrowerType === 'visitor') {
+                        typeBadge = '<span class="text-sm type-badge-visitor px-2 py-0.5 rounded-full">زائر</span>';
+                    } else {
+                        typeBadge = '<span class="text-sm type-badge-unregistered px-2 py-0.5 rounded-full">غير مسجل</span>';
+                    }
+                }
+                return `
+                <div class="book-card">
+                    <div class="flex-1 min-w-0">
+                        <div class="flex gap-2 flex-wrap mb-1">
+                            <span class="chip">${esc(book.serial)||'—'}</span>
+                            <span class="chip">${esc(book.category)}</span>
+                            <span class="text-sm meta">📍${formatShelfDisplay(book.shelf)}</span>
+                            ${typeBadge}
+                        </div>
+                        <h3 class="truncate">${esc(book.title)}</h3>
+                        <p class="meta">${esc(book.author)} | ${esc(book.publisher)||'—'} (${esc(book.year)||'—'})</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="${statusClass}">${statusLabel}</span>
+                        <button onclick="openBorrowModal('${esc(book.id)}')" ${btnDisabled} class="seal-btn modern-btn">استعارة</button>
+                    </div>
+                </div>
+            `}).join('');
+        }
+
+        function tryAccessAdmin() {
+            if (isAdminAuthenticated) { switchView('admin-view'); return; }
+            const modal = document.getElementById('admin-auth-modal');
+            if (modal) modal.classList.remove('hidden');
+        }
+
+        async function handleAdminLoginSubmit(e) {
+            e.preventDefault();
+            const email = document.getElementById('admin-email-input').value.trim();
+            const password = document.getElementById('admin-password-input').value;
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = '...جارٍ الدخول'; }
+            const { error } = await sb.auth.signInWithPassword({ email, password });
+            if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = 'دخول'; }
+            if (error) { alert("بيانات الدخول غير صحيحة"); return; }
+            isAdminAuthenticated = true;
+            await fetchMembers();
+            closeModal('admin-auth-modal');
+            switchView('admin-view');
+            renderAll();
+        }
+
+        async function logoutAdmin() {
+            try { await sb.auth.signOut(); } catch (e) {}
+            isAdminAuthenticated = false;
+            members = [];
+            switchView('user-view');
+        }
+
+        function switchView(viewId) {
+            const userView = document.getElementById('user-view');
+            const adminView = document.getElementById('admin-view');
+            const btnUser = document.getElementById('btn-user-view');
+            const btnAdmin = document.getElementById('btn-admin-view');
+            if (viewId === 'admin-view' && !isAdminAuthenticated) return;
+            if (viewId === 'user-view') {
+                userView.classList.remove('hidden-section');
+                adminView.classList.add('hidden-section');
+                btnUser.className = "header-btn active-btn modern-btn";
+                btnAdmin.className = "header-btn modern-btn";
+            } else {
+                userView.classList.add('hidden-section');
+                adminView.classList.remove('hidden-section');
+                btnAdmin.className = "header-btn active-btn modern-btn";
+                btnUser.className = "header-btn modern-btn";
+                renderAll();
+            }
+        }
+
+        async function clearAllBooks() {
+            const borrowedBooks = books.filter(b => b.borrowedBy);
+            if (borrowedBooks.length > 0) {
+                alert("لا يمكن مسح الكتب لأن بعض الكتب مستعارة حالياً. قم بإرجاع جميع الكتب أولاً.");
+                return;
+            }
+
+            if (books.length === 0) {
+                alert("لا توجد كتب لمسحها");
+                return;
+            }
+
+            if (confirm(`هل أنت متأكد من حذف جميع الكتب (${books.length} كتاب)؟`)) {
+                // حذف يعتمد على شرط عام بدل سرد كل المعرّفات في الرابط (يتجنب تجاوز الحد الأقصى لطول الرابط)
+                const { error } = await sb.from('books').delete().not('id', 'is', null);
+                if (error) { alert('حدث خطأ: ' + error.message); return; }
+                lastExcelSerial = 0;
+                await refreshAndRender();
+                alert("تم مسح جميع الكتب بنجاح");
+            }
+        }
+
+        function filterAdminBooks() {
+            const input = document.getElementById('admin-book-search');
+            adminSearchQuery = input ? input.value.trim().toLowerCase() : '';
+            showAllBooks = false;
+            renderAdminBooksList();
+        }
+
+        function toggleShowAllBooks() {
+            showAllBooks = !showAllBooks;
+            renderAdminBooksList();
+        }
+
+        function renderAdminBooksList() {
+            const container = document.getElementById('admin-books-list');
+            const countSpan = document.getElementById('admin-book-count');
+            if (!container) return;
+
+            let availableBooks = books.filter(b => !b.borrowedBy);
+
+            if (adminSearchQuery) {
+                const q = adminSearchQuery;
+                const qNorm = normalizeSearch(q);
+                availableBooks = availableBooks.filter(b =>
+                    textMatchesQuery(b.serial, q, qNorm) ||
+                    textMatchesQuery(b.category, q, qNorm) ||
+                    textMatchesQuery(b.title, q, qNorm) ||
+                    textMatchesQuery(b.author, q, qNorm) ||
+                    textMatchesQuery(b.publisher, q, qNorm) ||
+                    textMatchesQuery(b.year, q, qNorm) ||
+                    textMatchesQuery(b.translation, q, qNorm) ||
+                    textMatchesQuery(b.shelf, q, qNorm)
+                );
+            }
+
+            if (countSpan) countSpan.innerText = availableBooks.length;
+
+            if (availableBooks.length === 0) {
+                container.innerHTML =
+                    `<div class="p-2 text-center text-xs" style="color:var(--ink-faint);">${adminSearchQuery ? '❌ لا توجد نتائج مطابقة' : '📭 لا توجد كتب متاحة'}</div>`;
+                return;
+            }
+
+            let displayBooks = availableBooks;
+            let showHint = false;
+
+            if (!adminSearchQuery && !showAllBooks && availableBooks.length > 3) {
+                displayBooks = availableBooks.slice(0, 3);
+                showHint = true;
+            }
+
+            let html = displayBooks.map(book => {
+                return `
+                <div class="admin-book-item">
+                    <div class="book-info">
+                        <div class="book-title text-xs">${esc(book.title)}</div>
+                        <div class="book-meta text-[9px]">${esc(book.author)} | ${esc(book.serial) || '—'} | ${esc(book.category)} | 📍${formatShelfDisplay(book.shelf)}</div>
+                    </div>
+                    <div class="book-actions">
+                        <button onclick="openBorrowModal('${esc(book.id)}')" class="action-btn borrow text-[8px]">استعارة</button>
+                        <button onclick="editBook('${esc(book.id)}')" class="action-btn edit text-[8px]">✏️</button>
+                        <button onclick="deleteBook('${esc(book.id)}')" class="action-btn delete text-[8px]">🗑️</button>
+                    </div>
+                </div>
+            `}).join('');
+
+            if (showHint) {
+                html += `
+                    <div class="p-1 text-center">
+                        <button onclick="toggleShowAllBooks()" class="show-all-btn">
+                            عرض الكل (${availableBooks.length} كتاب)
+                        </button>
+                    </div>
+                `;
+            } else if (!adminSearchQuery && showAllBooks) {
+                html += `
+                    <div class="p-1 text-center">
+                        <button onclick="toggleShowAllBooks()" class="show-all-btn">
+                            عرض أقل
+                        </button>
+                    </div>
+                `;
+            }
+
+            container.innerHTML = html;
+        }
+
+        // ===== EXCEL-STYLE DATA GRID =====
+        function renderBooksGrid() {
+            const tbody = document.getElementById('books-data-grid');
+            if (!tbody) return;
+            if (books.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="10" class="p-3 text-center text-xs" style="color:var(--ink-faint);">لا توجد كتب بعد — اضغط "+ صف جديد" للبدء</td></tr>`;
+                return;
+            }
+            const sortedBooks = [...books].sort((a, b) => naturalCompare(b.serial, a.serial) || naturalCompare(a.shelf, b.shelf));
+            const fields = ['serial', 'category', 'title', 'author', 'publisher', 'year', 'translation', 'shelf'];
+            tbody.innerHTML = sortedBooks.map(book => {
+                const isBorrowed = !!book.borrowedBy;
+                const cells = fields.map(f => `
+                    <td><input type="text" class="grid-cell-input" value="${esc(book[f])}"
+                        data-id="${book.id}" data-field="${f}" onchange="updateBookCell(this)"></td>
+                `).join('');
+                const statusClass = isBorrowed ? 'is-borrowed' : 'is-available';
+                const statusLabel = isBorrowed ? 'مستعار' : 'متاح';
+                const rowClass = isBorrowed ? 'borrowed-row' : '';
+                return `
+                    <tr class="${rowClass}">
+                        ${cells}
+                        <td class="grid-status-cell ${statusClass}">${statusLabel}</td>
+                        <td class="grid-delete-cell">
+                            <button onclick="deleteBook('${esc(book.id)}')" class="grid-delete-btn" ${isBorrowed ? 'disabled title="لا يمكن حذف كتاب مستعار"' : 'title="حذف"'}>🗑️</button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        async function updateBookCell(inputEl) {
+            const id = inputEl.dataset.id;
+            const field = inputEl.dataset.field;
+            const value = inputEl.value.trim();
+            const book = books.find(b => sameId(b.id, id));
+            if (!book) return;
+            if ((field === 'title' || field === 'author' || field === 'category') && !value) {
+                alert('هذه الخانة لا يمكن أن تكون فارغة');
+                inputEl.value = book[field] || '';
+                return;
+            }
+            inputEl.style.opacity = '.5';
+            const { error } = await sb.from('books').update({ [field]: value }).eq('id', id);
+            inputEl.style.opacity = '1';
+            if (error) { alert('حدث خطأ أثناء الحفظ: ' + error.message); inputEl.value = book[field] || ''; return; }
+            book[field] = value;
+            if (field === 'serial') calculateLastSerial();
+            renderStats();
+            renderAdminBooksList();
+            renderReportList(currentReportFilter);
+        }
+
+        async function addNewBookRow() {
+            const serial = generateNextSerial();
+            const { error } = await sb.from('books').insert({
+                serial: serial, title: 'كتاب جديد', author: '—', category: 'عام',
+                publisher: '', year: '', translation: '', shelf: ''
+            });
+            if (error) { alert('حدث خطأ: ' + error.message); return; }
+            await refreshAndRender();
+            const wrapper = document.querySelector('.data-grid-scroll');
+            if (wrapper) wrapper.scrollTop = wrapper.scrollHeight;
+        }
+
+        function editBook(id) {
+            const book = books.find(b => sameId(b.id, id));
+            if (!book) {
+                alert("الكتاب غير موجود");
+                return;
+            }
+
+            document.getElementById('book-id').value = book.id;
+            document.getElementById('book-serial').value = book.serial || '';
+            document.getElementById('book-category').value = book.category || '';
+            document.getElementById('book-title').value = book.title || '';
+            document.getElementById('book-author').value = book.author || '';
+            document.getElementById('book-publisher').value = book.publisher || '';
+            document.getElementById('book-year').value = book.year || '';
+            document.getElementById('book-translation').value = book.translation || '';
+            document.getElementById('book-shelf').value = book.shelf || '';
+
+            document.getElementById('form-title').innerHTML = '✏️ تعديل كتاب';
+            document.getElementById('submit-btn').innerHTML = 'تحديث';
+
+            const previewSpan = document.getElementById('serial-preview');
+            if (previewSpan) {
+                previewSpan.textContent = '✏️ يمكنك تعديل جميع الحقول بما فيها التسلسل';
+                previewSpan.style.color = '#8B2A22';
+            }
+
+            document.getElementById('book-form-card').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        async function deleteBook(id) {
+            const book = books.find(b => sameId(b.id, id));
+            if (!book) return;
+            if (book.borrowedBy) { alert("لا يمكن حذف الكتاب لأنه مستعار حالياً"); return; }
+            if (confirm(`هل أنت متأكد من حذف "${book.title}"؟`)) {
+                const { error } = await sb.from('books').delete().eq('id', id);
+                if (error) { alert('حدث خطأ: ' + error.message); return; }
+                await refreshAndRender();
+                alert("تم حذف الكتاب بنجاح");
+            }
+        }
+
+        function renderAdminMembersTable() {
+            const tbody = document.getElementById('admin-members-table');
+            if (!tbody) return;
+
+            const searchInput = document.getElementById('member-search-input');
+            const searchQuery = searchInput ? searchInput.value.trim().toLowerCase() : '';
+
+            let filteredMembers = members;
+            if (searchQuery) {
+                filteredMembers = members.filter(m =>
+                    (m.name || '').toLowerCase().includes(searchQuery) ||
+                    (m.phone || '').toLowerCase().includes(searchQuery) ||
+                    (m.email || '').toLowerCase().includes(searchQuery)
+                );
+            }
+
+            const countSpan = document.getElementById('member-count-badge');
+            if (countSpan) countSpan.innerText = members.length;
+
+            if (filteredMembers.length === 0) {
+                tbody.innerHTML =
+                    `<tr><td colspan="4" class="p-3 text-center text-base" style="color:var(--ink-faint);">${searchQuery ? '🔍 لا توجد نتائج مطابقة' : 'لا يوجد أعضاء مسجلين'}</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = filteredMembers.map(m => `
+                <tr class="border-b" style="border-color:var(--parchment-line);">
+                    <td class="table-cell text-base font-medium">${esc(m.name)}</td>
+                    <td class="table-cell text-sm">${esc(m.phone) || '—'}</td>
+                    <td class="table-cell text-sm">${esc(m.email) || '—'}</td>
+                    <td class="table-cell text-center">
+                        <button onclick="openMemberEditModal('${esc(m.id)}')" class="action-btn edit-member text-sm px-2 py-0.5 rounded">✏️</button>
+                        <button onclick="deleteMember('${esc(m.id)}')" class="action-btn delete text-sm px-2 py-0.5 rounded">🗑️</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function openMemberEditModal(id) {
+            const member = members.find(m => sameId(m.id, id));
+            if (!member) return;
+            document.getElementById('edit-member-id').value = member.id;
+            document.getElementById('edit-member-name').value = member.name || '';
+            document.getElementById('edit-member-phone').value = member.phone || '';
+            document.getElementById('edit-member-email').value = member.email || '';
+            document.getElementById('member-edit-modal').classList.remove('hidden');
+        }
+
+        async function handleMemberEditSubmit(e) {
+            e.preventDefault();
+            const id = document.getElementById('edit-member-id').value;
+            const name = document.getElementById('edit-member-name').value.trim();
+            const phone = document.getElementById('edit-member-phone').value.trim();
+            const email = document.getElementById('edit-member-email').value.trim();
+            if (!name) { alert("الاسم مطلوب"); return; }
+            const duplicate = members.some((m) => m.name === name && !sameId(m.id, id));
+            if (duplicate) { alert("هذا الاسم موجود مسبقاً"); return; }
+            const { error } = await sb.from('members').update({ name, phone, email }).eq('id', id);
+            if (error) { alert('حدث خطأ: ' + error.message); return; }
+            closeModal('member-edit-modal');
+            await refreshAndRender();
+            alert("تم تحديث العضو بنجاح");
+        }
+
+        async function deleteMember(id) {
+            const member = members.find(m => sameId(m.id, id));
+            if (!member) return;
+            if (books.some(b => b.borrowedBy === member.name)) {
+                alert("لا يمكن الحذف - العضو لديه كتب مستعارة");
+                return;
+            }
+            if (confirm(`حذف عضوية "${member.name}"؟`)) {
+                const { error } = await sb.from('members').delete().eq('id', id);
+                if (error) { alert('حدث خطأ: ' + error.message); return; }
+                await refreshAndRender();
+                alert("تم الحذف");
+            }
+        }
+
+        function renderReportList(filter = 'all') {
+            currentReportFilter = filter;
+            const wrapper = document.getElementById('report-list-wrapper');
+            if (!wrapper) return;
+
+            const btnA = document.getElementById('btn-report-all');
+            const btnL = document.getElementById('btn-report-late');
+            if (btnA && btnL) {
+                btnA.className = 'px-2 py-0.5 rounded text-sm font-bold';
+                btnA.style.background = filter === 'all' ? 'var(--gold-light)' : 'rgba(244,234,210,.12)';
+                btnA.style.color = filter === 'all' ? 'var(--ink)' : 'rgba(244,234,210,.7)';
+                btnL.className = 'px-2 py-0.5 rounded text-sm font-medium';
+                btnL.style.background = filter === 'late' ? 'var(--gold-light)' : 'rgba(244,234,210,.12)';
+                btnL.style.color = filter === 'late' ? 'var(--ink)' : 'rgba(244,234,210,.7)';
+            }
+
+            const searchInput = document.getElementById('report-search-input');
+            const searchQuery = searchInput ? searchInput.value.trim().toLowerCase() : '';
+            const searchQueryNorm = normalizeSearch(searchQuery);
+
+            const borrowed = books.filter(b => b.borrowedBy);
+            const today = new Date();
+
+            if (borrowed.length === 0) {
+                wrapper.innerHTML = `<div class="report-empty">📭 لا توجد استعارات</div>`;
+                return;
+            }
+
+            let items = '';
+            borrowed.forEach(book => {
+                const bd = new Date(book.borrowDate);
+                const diff = isNaN(bd) ? 0 : Math.floor((today - bd) / 86400000);
+                const lateDays = diff - LOAN_PERIOD_DAYS;
+                const isLate = lateDays > 0;
+                if (filter === 'late' && !isLate) return;
+
+                if (searchQuery) {
+                    const searchableFields = [
+                        book.title || '',
+                        book.borrowedBy || '',
+                        book.serial || '',
+                        book.shelf || '',
+                        book.category || '',
+                        book.author || '',
+                        book.publisher || '',
+                        book.year || '',
+                        book.translation || '',
+                        book.borrowerType || ''
+                    ].join(' ');
+                    if (!textMatchesQuery(searchableFields, searchQuery, searchQueryNorm)) return;
+                }
+
+                const fineAmount = isLate ? lateDays * FINE_PER_DAY : 0;
+
+                let typeClass = 'unregistered';
+                let typeLabel = 'غير مسجل';
+                if (book.borrowerType === 'registered') {
+                    typeClass = 'registered';
+                    typeLabel = 'عضو';
+                } else if (book.borrowerType === 'visitor') {
+                    typeClass = 'visitor';
+                    typeLabel = 'زائر';
+                }
+
+                const fineDisplay = isLate ?
+                    `<span class="fine-info positive">${fineAmount.toLocaleString()} د.ع</span>` :
+                    `<span class="fine-info zero">0 د.ع</span>`;
+                const daysDisplay = isLate ?
+                    `<span style="color:#8B2A22; font-weight:700;">⚠️ +${lateDays} يوم</span>` :
+                    `<span style="color:#5C6B4E; font-weight:700;">✓ ${LOAN_PERIOD_DAYS - diff} يوم</span>`;
+                const rowClass = isLate ? 'late-row' : '';
+
+                const shelfDisplay = formatShelfDisplay(book.shelf);
+                const serialDisplay = book.serial || '—';
+
+                items += `
+                    <div class="report-list-item ${rowClass}">
+                        <div class="book-details">
+                            <div class="book-title">${esc(book.title)}</div>
+                            <div class="book-meta">
+                                <span class="serial-badge">📋 ${esc(serialDisplay)}</span>
+                                <span class="shelf-badge">📍 ${shelfDisplay}</span>
+                            </div>
+                        </div>
+                        <div class="borrower-info">${esc(book.borrowedBy)}</div>
+                        <span class="borrower-type ${typeClass}">${typeLabel}</span>
+                        <div class="date-info">${esc(book.borrowDate) || '—'}</div>
+                        <div class="date-info">${daysDisplay}</div>
+                        ${fineDisplay}
+                        <button onclick="returnBook('${esc(book.id)}')" class="return-btn">إرجاع</button>
+                    </div>
+                `;
+            });
+
+            if (items === '') {
+                wrapper.innerHTML = `<div class="report-empty">${searchQuery ? '🔍 لا توجد نتائج' : '✅ لا توجد كتب متأخرة'}</div>`;
+            } else {
+                const header = `
+                    <div class="report-list-header">
+                        <span>الكتاب</span>
+                        <span>المستعير</span>
+                        <span>النوع</span>
+                        <span>التاريخ</span>
+                        <span>المدة</span>
+                        <span>الغرامة</span>
+                        <span>إجراء</span>
+                    </div>
+                `;
+                wrapper.innerHTML = header + items;
+            }
+        }
+
+        function renderStats() {
+            const total = books.length;
+            const borrowed = books.filter(b => b.borrowedBy).length;
+            let late = 0;
+            const now = Date.now();
+            const dayMs = 86400000;
+            for (let b of books) {
+                if (b.borrowedBy && b.borrowDate) {
+                    const diff = Math.floor((now - new Date(b.borrowDate).getTime()) / dayMs);
+                    if (diff > LOAN_PERIOD_DAYS) late++;
+                }
+            }
+            document.getElementById('stat-total-books').innerText = total;
+            document.getElementById('stat-borrowed-books').innerText = borrowed;
+            document.getElementById('stat-late-books').innerText = late;
+            document.getElementById('stat-total-members').innerText = members.length;
+        }
+
+        function importExcelData() {
+            const file = document.getElementById('excel-file-input').files[0];
+            if (!file) { alert("اختر ملف Excel أولاً"); return; }
+            const btn = document.getElementById('import-excel-btn');
+            const reader = new FileReader();
+            reader.onload = async function(e) {
+                if (btn) { btn.disabled = true; btn.textContent = '...جارٍ الاستيراد'; }
+                try {
+                    const data = new Uint8Array(e.target.result);
+                    const workbook = XLSX.read(data, { type: 'array' });
+                    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+                    const rows = XLSX.utils.sheet_to_json(sheet);
+                    let maxSerial = lastExcelSerial;
+                    const newRows = [];
+                    const updates = [];
+                    // فهرس سريع للكتب الموجودة حسب التسلسل (بدل البحث الخطي لكل صف)
+                    const bySerial = new Map();
+                    for (const b of books) {
+                        const key = (b.serial || '').toString().trim();
+                        if (key) bySerial.set(key, b);
+                    }
+                    for (let row of rows) {
+                        const title = row['عنوان الكتاب'] || row['العنوان'] || row['Title'];
+                        if (title) {
+                            let serial = (row['التسلسل المكتبي'] || row['التسلسل'] || '').toString().trim();
+                            if (!serial) {
+                                const nextNum = maxSerial + 1;
+                                serial = String(nextNum);
+                                maxSerial = nextNum;
+                            } else {
+                                const numMatch = serial.match(/\d+/);
+                                if (numMatch) {
+                                    const num = parseInt(numMatch[0]);
+                                    if (num > maxSerial) maxSerial = num;
+                                }
+                            }
+                            const bookData = {
+                                serial: serial,
+                                title: title.toString().trim(),
+                                author: (row['المؤلف'] || row['الكاتب'] || 'مجهول').toString(),
+                                category: (row['القسم'] || row['قسم'] || 'عام').toString(),
+                                publisher: (row['دار النشر'] || row['الناشر'] || '').toString(),
+                                year: (row['سنة النشر'] || row['السنة'] || '').toString(),
+                                translation: (row['المترجم'] || row['الترجمة'] || '').toString(),
+                                shelf: (row['رقم الرف'] || row['الرف'] || '').toString()
+                            };
+                            // إذا كان هناك كتاب موجود بنفس التسلسل، حدّث بياناته بدل تكراره
+                            const existing = serial ? bySerial.get(serial) : null;
+                            if (existing) {
+                                updates.push({ id: existing.id, data: bookData });
+                            } else {
+                                newRows.push(bookData);
+                            }
+                        }
+                    }
+                    if (newRows.length === 0 && updates.length === 0) {
+                        alert("لم يتم التعرف على البيانات");
+                        return;
+                    }
+                    if (newRows.length > 0) {
+                        // إدخال الكتب الجديدة على دفعات بدل طلب واحد ضخم (يفشل أو يتعطّل مع آلاف الصفوف)
+                        const INSERT_BATCH_SIZE = 300;
+                        for (let i = 0; i < newRows.length; i += INSERT_BATCH_SIZE) {
+                            const batch = newRows.slice(i, i + INSERT_BATCH_SIZE);
+                            if (btn) btn.textContent = `...إضافة ${Math.min(i + INSERT_BATCH_SIZE, newRows.length)}/${newRows.length}`;
+                            const { error } = await sb.from('books').insert(batch);
+                            if (error) { alert(`حدث خطأ أثناء إضافة الكتب الجديدة (عند الصف ${i + 1}): ` + error.message); return; }
+                        }
+                    }
+                    if (updates.length > 0) {
+                        // تنفيذ التحديثات على دفعات متوازية بدل طلب واحد تلو الآخر (أسرع بكثير)
+                        const BATCH_SIZE = 20;
+                        for (let i = 0; i < updates.length; i += BATCH_SIZE) {
+                            const batch = updates.slice(i, i + BATCH_SIZE);
+                            if (btn) btn.textContent = `...تحديث ${Math.min(i + BATCH_SIZE, updates.length)}/${updates.length}`;
+                            const results = await Promise.all(
+                                batch.map(u => sb.from('books').update(u.data).eq('id', u.id))
+                            );
+                            const failed = results.find(r => r.error);
+                            if (failed) { alert("حدث خطأ أثناء تحديث بعض الكتب: " + failed.error.message); return; }
+                        }
+                    }
+                    lastExcelSerial = maxSerial;
+                    await refreshAndRender();
+                    let msg = '';
+                    if (newRows.length > 0) msg += `تمت إضافة ${newRows.length} كتاب جديد\n`;
+                    if (updates.length > 0) msg += `تم تحديث ${updates.length} كتاب موجود مسبقاً\n`;
+                    msg += `آخر تسلسل: ${lastExcelSerial}`;
+                    alert(msg);
+                    document.getElementById('excel-file-input').value = '';
+                    document.getElementById('file-chosen-text').innerText = 'لا ملف';
+                    updateSerialField();
+                } catch (err) {
+                    alert("حدث خطأ أثناء قراءة الملف: " + err.message);
+                } finally {
+                    if (btn) { btn.disabled = false; btn.textContent = 'استيراد'; }
+                }
+            };
+            reader.readAsArrayBuffer(file);
+        }
+
+        function updateFileLabel() {
+            const input = document.getElementById('excel-file-input');
+            const txt = document.getElementById('file-chosen-text');
+            if (input.files.length && txt) txt.innerText = input.files[0].name.substring(0, 15);
+            else if (txt) txt.innerText = 'لا ملف';
+        }
+
+        async function handleBookSubmit(e) {
+            e.preventDefault();
+            const id = document.getElementById('book-id').value;
+            let serialValue = document.getElementById('book-serial').value.trim();
+            if (!id && !serialValue) { serialValue = generateNextSerial(); }
+            else if (!id && serialValue) {
+                const numMatch = serialValue.match(/\d+/);
+                if (numMatch) { const num = parseInt(numMatch[0]); if (num > lastExcelSerial) lastExcelSerial = num; }
+            } else if (id && !serialValue) {
+                const book = books.find(b => sameId(b.id, id));
+                if (book) serialValue = book.serial || '';
+            }
+            const data = {
+                serial: serialValue,
+                title: document.getElementById('book-title').value.trim(),
+                author: document.getElementById('book-author').value.trim(),
+                category: document.getElementById('book-category').value.trim(),
+                publisher: document.getElementById('book-publisher').value.trim(),
+                year: document.getElementById('book-year').value.trim(),
+                translation: document.getElementById('book-translation').value.trim(),
+                shelf: document.getElementById('book-shelf').value.trim()
+            };
+            let error;
+            if (id) {
+                ({ error } = await sb.from('books').update(data).eq('id', id));
+                const numMatch = serialValue.match(/\d+/);
+                if (numMatch) { const num = parseInt(numMatch[0]); if (num > lastExcelSerial) lastExcelSerial = num; }
+            } else {
+                ({ error } = await sb.from('books').insert(data));
+                const numMatch = serialValue.match(/\d+/);
+                if (numMatch) { const num = parseInt(numMatch[0]); if (num > lastExcelSerial) lastExcelSerial = num; }
+            }
+            if (error) { alert('حدث خطأ: ' + error.message); return; }
+            await refreshAndRender();
+            resetForm();
+            alert(id ? "تم تحديث الكتاب بنجاح" : "تم إضافة الكتاب بنجاح - التسلسل: " + data.serial);
+            updateSerialField();
+        }
+
+        function resetForm() {
+            document.getElementById('book-form').reset();
+            document.getElementById('book-id').value = '';
+            document.getElementById('form-title').innerHTML = '📝 إضافة كتاب جديد';
+            document.getElementById('submit-btn').innerHTML = 'حفظ';
+            const serialField = document.getElementById('book-serial');
+            serialField.readOnly = false;
+            const previewSpan = document.getElementById('serial-preview');
+            if (previewSpan) {
+                previewSpan.textContent = 'يمكنك تعديل التسلسل يدوياً';
+                previewSpan.style.color = '';
+            }
+            updateSerialField();
+        }
+
+        async function handleMemberSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('member-name').value.trim();
+            if (members.some(m => m.name === name)) { alert("هذا العضو موجود مسبقاً"); return; }
+            const { error } = await sb.from('members').insert({
+                name: name,
+                phone: document.getElementById('member-phone').value.trim(),
+                email: document.getElementById('member-email').value.trim()
+            });
+            if (error) { alert('حدث خطأ: ' + error.message); return; }
+            document.getElementById('member-form').reset();
+            await refreshAndRender();
+            alert("تمت إضافة العضو بنجاح");
+        }
+
+        function populateBorrowDropdown() {
+            const select = document.getElementById('borrower-select');
+            if (!select) return;
+            const prev = select.value;
+            select.innerHTML = '<option value="" disabled selected>اختر العضو</option>' +
+                members.map(m => `<option value="${esc(m.name)}">${esc(m.name)}</option>`).join('');
+            if (prev && members.some(m => m.name === prev)) select.value = prev;
+        }
+
+        function openBorrowModal(bookId) {
+            const book = books.find(b => sameId(b.id, bookId));
+            if (!book) return;
+            if (book.borrowedBy) { alert("هذا الكتاب مستعار حالياً"); return; }
+            document.getElementById('borrow-book-id').value = bookId;
+            document.getElementById('modal-book-title').textContent = (book.title || '').substring(0, 35);
+            toggleBorrowTab('registered');
+            document.getElementById('borrow-modal').classList.remove('hidden');
+        }
+
+        function toggleBorrowTab(type) {
+            document.getElementById('borrow-type').value = type;
+            const reg = document.getElementById('tab-registered-container');
+            const vis = document.getElementById('tab-visitor-container');
+            const unreg = document.getElementById('tab-unregistered-container');
+            reg.classList.add('hidden');
+            vis.classList.add('hidden');
+            unreg.classList.add('hidden');
+            document.getElementById('tab-btn-registered').className =
+                "w-1/3 py-1.5 rounded-md text-sm text-slate-500";
+            document.getElementById('tab-btn-visitor').className =
+                "w-1/3 py-1.5 rounded-md text-sm text-slate-500";
+            document.getElementById('tab-btn-unregistered').className =
+                "w-1/3 py-1.5 rounded-md text-sm text-slate-500";
+            if (type === 'registered') {
+                document.getElementById('tab-btn-registered').className =
+                    "w-1/3 py-1.5 rounded-md text-sm font-medium bg-white shadow-sm";
+                reg.classList.remove('hidden');
+            } else if (type === 'visitor') {
+                document.getElementById('tab-btn-visitor').className =
+                    "w-1/3 py-1.5 rounded-md text-sm font-medium bg-white shadow-sm";
+                vis.classList.remove('hidden');
+            } else {
+                document.getElementById('tab-btn-unregistered').className =
+                    "w-1/3 py-1.5 rounded-md text-sm font-medium bg-white shadow-sm";
+                unreg.classList.remove('hidden');
+            }
+        }
+
+        async function handleBorrowSubmit(e) {
+            e.preventDefault();
+            const bookId = document.getElementById('borrow-book-id').value;
+            const borrowType = document.getElementById('borrow-type').value;
+            let borrowerName = '';
+            let borrowerTypeValue = '';
+            if (borrowType === 'registered') {
+                borrowerName = document.getElementById('borrower-select').value;
+                if (!borrowerName || borrowerName === '') { alert("اختر عضواً"); return; }
+                borrowerTypeValue = 'registered';
+            } else if (borrowType === 'visitor') {
+                const name = document.getElementById('visitor-name').value.trim();
+                if (!name) { alert("أدخل اسم الزائر"); return; }
+                const phone = document.getElementById('visitor-phone').value.trim();
+                const idNum = document.getElementById('visitor-id').value.trim();
+                borrowerName = `زائر: ${name}`;
+                if (phone) borrowerName += ` (${phone})`;
+                if (idNum) borrowerName += ` [${idNum}]`;
+                borrowerTypeValue = 'visitor';
+            } else {
+                const name = document.getElementById('borrower-direct-name').value.trim();
+                if (!name) { alert("أدخل الاسم"); return; }
+                const phone = document.getElementById('borrower-direct-phone').value.trim();
+                borrowerName = phone ? `${name} (${phone})` : name;
+                borrowerTypeValue = 'unregistered';
+            }
+            const book = books.find(b => sameId(b.id, bookId));
+            if (!book || book.borrowedBy) { alert("الكتاب غير متاح"); return; }
+            const { error } = await sb.from('books').update({
+                borrowed_by: borrowerName,
+                borrow_date: new Date().toISOString().slice(0, 10),
+                borrower_type: borrowerTypeValue
+            }).eq('id', bookId);
+            if (error) { alert('حدث خطأ: ' + error.message); return; }
+            closeModal('borrow-modal');
+            await refreshAndRender();
+            alert("تمت إعارة الكتاب بنجاح");
+        }
+
+        async function returnBook(id) {
+            const book = books.find(b => sameId(b.id, id));
+            if (book && book.borrowedBy && confirm(`إرجاع "${book.title}"؟`)) {
+                const { error } = await sb.from('books').update({
+                    borrowed_by: null, borrow_date: null, borrower_type: null
+                }).eq('id', id);
+                if (error) { alert('حدث خطأ: ' + error.message); return; }
+                await refreshAndRender();
+                alert("تم إرجاع الكتاب");
+            }
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) modal.classList.add('hidden');
+            if (modalId === 'borrow-modal') {
+                document.getElementById('borrow-form').reset();
+                document.getElementById('borrow-type').value = 'registered';
+            }
+            if (modalId === 'member-edit-modal') {
+                document.getElementById('member-edit-form').reset();
+                document.getElementById('edit-member-id').value = '';
+            }
+        }
+
+        // تهيئة واحدة فقط (كان الكود يهيّئ مرتين ويربط المستمعات مرتين → حفظ/بحث مضاعف)
+        let appStarted = false;
+        function startApp() {
+            if (appStarted) return;
+            appStarted = true;
+            initData();
+            updateLiveClock();
+            setInterval(updateLiveClock, 1000);
+            document.getElementById('admin-login-form').addEventListener('submit', handleAdminLoginSubmit);
+        }
+        // السكربتات الخارجية (supabase, xlsx) محمّلة بـ defer، لذلك ننتظر انتهاء التحميل
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', startApp);
+        else startApp();
+    </script>
+</body>
+</html>
